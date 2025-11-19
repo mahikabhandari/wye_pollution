@@ -1,0 +1,599 @@
+Org,Site ID,Name in EC,Latitude,Longitude,Watercourse (if known),"Catchment (or ""tbc"")"
+CPRE,CPRE001,CPRE001: Cheaton Brook at Tick Bridge,52.220489,-2.706562,Cheaton/Whyle Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE002,CPRE002: Cheaton Whyle brook at Flitlock farm bridge,52.229387,-2.665361,Cheaton/Whyle Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE003,CPRE003: Cheaton/Whyle Brook at Whyle Mill,52.243619,-2.656803,Cheaton/Whyle Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE004,CPRE004: Cheaton/Whyle Brook at Cockspur coppice,52.255498,-2.618747,Cheaton/Whyle Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE005,CPRE005: Cogwell Brook at Stockton Bury Bridge,52.242028,-2.710431,Cogwell Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE006,CPRE006: Cogwell Brook at Hawthorn,52.261411,-2.697126,Cogwell Brook,Cheaton Bk - source to conf R Lugg
+CPRE,CPRE007,CPRE007: Pinsley Brook at Waterloo Mill Bridge,52.24057,-2.80564,Pinsley Brook,Pinsley Bk - source to conf R Lugg
+CPRE,CPRE008,CPRE008: Lugg Byton Bridge,52.276094,-2.934884,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE009,CPRE009: River Lugg@ kingsland,52.254528,-2.809167,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE010,CPRE010: Honeylake Brook @ Ivington Bridge,52.20632,-2.768966,Honeylake Brook,Honeylake Bk - source to conf Little Arrow
+CPRE,CPRE011,CPRE011: River Arrow at Ivington Bridge,52.209434,-2.770553,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE012,CPRE012: Stretford Brook at Venmore Bridge,52.189978,-2.821506,Stretford Brook,Stretford Bk - source to conf R Arrow
+CPRE,CPRE013,CPRE013: Honeylake Brook at Birley Bridge,52.176552,-2.799541,Honeylake Brook,Honeylake Bk - source to conf Little Arrow
+CPRE,CPRE014,CPRE014: River Arrow at Hay Bridge Eardisland,52.224295,-2.856533,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE015,CPRE015: River Arrow at the Leen Pembridge,52.225345,-2.906448,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE016,CPRE016: River Arrow @Titley Mill,52.220598,-2.984061,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE017,CPRE017: River Arrow @Hergest Court,52.189571,-3.054453,Arrow,Arrow - conf Gladestry Bk to conf Gilwern Bk
+CPRE,CPRE018,CPRE018: Hindwell Brook @Rodd Bridge,52.260296,-2.997878,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+CPRE,CPRE019,CPRE019: River Lugg at Ford Bridge,52.191976,-2.718687,Lugg,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE020,CPRE020: Humber brook at Hampton court,52.170299,-2.701867,Humber Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE021,CPRE021: Humber Brook at Risbury Mill,52.190869,-2.674002,Humber Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE022,CPRE022: Holly Brook at Risbury Hill Fort,52.196125,-2.669415,Holly Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE023,CPRE023: Humber brook at Steensbridge,52.212161,-2.670518,Humber Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE024,CPRE024: Humber brook at Hatfield court,52.226728,-2.625531,Humber Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE025,CPRE025: Humber Brook at Humber Church,52.202447,-2.682415,Humber Brook,Humber Bk - source to conf R Lugg
+CPRE,CPRE026,CPRE026: Curl Brook at Byletts Bridge,52.218114,-2.903084,Curl Brook,Curl Bk - source to conf R Arrow
+CPRE,CPRE029,CPRE029: River Lugg at Bodenham bridge,52.156245,-2.680828,Lugg,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE030,CPRE030: Bodenham Brook at Lugg confluence,52.156073,-2.67843,Bodenham Brook,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE031,CPRE031: Bodenham Brook at Upper Moor Farm,52.146725,-2.658398,Bodenham Brook,Bodenham Bk - source to conf R Lugg
+CPRE,CPRE032,CPRE032: Bodenham Brook at Cornett bridge on A417,52.144377,-2.624717,Bodenham Brook,Bodenham Bk - source to conf R Lugg
+CPRE,CPRE035,CPRE035: Millcroft Brook at Brockington Rd Bodenham,52.155816,-2.668193,Millcroft Brook,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE039,CPRE039: River Lugg at Marden,52.125335,-2.705153,Lugg,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE040,CPRE040: Wellington brook at Wellington ford,52.130289,-2.735559,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE041,CPRE041: Wellington Brook at Wellington Mill,52.12986,-2.749468,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE042,CPRE042: Wellington Brook at Kinford Farm bridge,52.140053,-2.781623,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE043,CPRE043: Wellington Brook at Canon Pyon Bridge,52.136749,-2.787558,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE044,CPRE044: Wellington Brook at Full Bridge,52.145727,-2.790261,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE045,CPRE045: Wellington Brook at King's Pyon,52.153455,-2.820555,Wellington Brook,Wellington Bk - source to conf R Lugg
+CPRE,CPRE046,"CPRE046: Moreton Brook, nr Wergins Stone",52.090753,-2.6882,Moreton Brook,Moreton Bk - source to conf R Lugg
+CPRE,CPRE047,CPRE047: Moreton brook at moreton on Lugg,52.108304,-2.715538,Moreton Brook,Moreton Bk - source to conf R Lugg
+CPRE,CPRE049,CPRE049: River Lugg at Wergins Bridge,52.098191,-2.689212,Lugg,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE050,CPRE050: Little Lugg at Sutton Marsh bridge,52.091886,-2.659697,Little Lugg,Little Lugg - source to conf R Lugg
+CPRE,CPRE051,"CPRE051: Little Lugg at Wyatt Road, Cross Keys",52.095752,-2.654242,Little Lugg,Little Lugg - source to conf R Lugg
+CPRE,CPRE052,CPRE052: Little Lugg at Tumpy Lakes cottage,52.119666,-2.659187,Little Lugg,Little Lugg - source to conf R Lugg
+CPRE,CPRE053,CPRE053: Little Lugg at Preston Marsh bridge,52.109867,-2.63991,Little Lugg,Little Lugg - source to conf R Lugg
+CPRE,CPRE054,CPRE054: River Lodon at Ark cottage,52.085715,-2.548845,Lodon,Lodon - source to conf R Frome
+CPRE,CPRE055,CPRE055: Withington Marsh Brook at Withington Marsh Bridge,52.093608,-2.634058,Withington Marsh Brook,Withington Marsh Bk - source to conf R Little Lugg
+CPRE,CPRE056,CPRE056: River Lodon at Bridge End Much Cowarne,52.119795,-2.545278,Lodon,Lodon - source to conf R Frome
+CPRE,CPRE057,CPRE057: River Lodon at Stoke Lacy Mill,52.141315,-2.558693,Lodon,Lodon - source to conf R Frome
+CPRE,CPRE059,CPRE059: River Lugg at Lugwardine bridge,52.046542,-2.645127,Lugg,Lugg - conf R Arrow to conf R Wye
+CPRE,CPRE060,CPRE060: River Frome at Longworth mill,52.049869,-2.634952,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE061,"CPRE061: River Frome, bridge nr Stoke Edith",52.074534,-2.586851,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE062,CPRE062: River Frome at Watery Lane Little Yarkhill,52.081225,-2.565154,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE064,CPRE064: River Frome at Five Bridges,52.119295,-2.499991,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE065,CPRE065: River Frome at Kingstone Bridge Bishops Frome EA FGS,52.136895,-2.488938,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE066,CPRE066: River Frome at Avenbury Bridge,52.174423,-2.494575,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE067,CPRE067: River Frome at DRM garage Bromyard,52.191213,-2.501424,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE068,CPRE068: River Frome at Bromyard Sports Club,52.19783,-2.512967,Frome,Frome - source to conf Tedstone Bk
+CPRE,CPRE069,CPRE069: Hackley Brook at Green Lane Bridge,52.187439,-2.538409,Hackley Brook,Frome - source to conf Tedstone Bk
+CPRE,CPRE070,CPRE070: River Frome at Rowden Mill,52.206438,-2.54339,Frome,Frome - source to conf Tedstone Bk
+CPRE,CPRE071,CPRE071: River Frome at Butterley Mill,52.220368,-2.547549,Frome,Frome - source to conf Tedstone Bk
+CPRE,CPRE080,CPRE080: Tedstone Brook at Buckenhill Manor,52.210983,-2.486509,Tedstone Brook,Tedstone Bk - source to conf R Frome
+CPRE,CPRE081,CPRE081: Tedstone Brook at Stoney Bridge,52.232704,-2.485425,Tedstone Brook,Tedstone Bk - source to conf R Frome
+CPRE,CPRE090,CPRE090: Pentaloe Brook at Mordiford opposite Moon Inn,52.032697,-2.625888,Pentaloe Brook,Pentaloe Bk - source to conf R Wye
+CPRE,CPRE093,CPRE093: River Frome at canon bridge on A417 south of stretton Grandison,52.087517,-2.53554,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE094,CPRE094: River Frome at Canons Frome Court Footbridge,52.089693,-2.522407,Frome,Frome - conf Tedstone Bk to conf R Lugg
+CPRE,CPRE100,CPRE100: Leabrink a,52.001797,-2.620175,Wye,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE101,CPRE101: Leabrink b,52.00376,-2.619549,Wye,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE102,CPRE102: Brook at Ferry Lane Footpath,52.005785,-2.61691,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE103,"CPRE103: Mill Farm Barn, Fownhope",52.010765,-2.622337,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE107,CPRE107: Rise Farm Stream,51.996009,-2.605796,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE109,CPRE109: Capler Cottages brook,51.991829,-2.608576,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE110,CPRE110: Llangarron Bridge,51.886452,-2.682275,Garren,Garren Bk - conf Gamber Bk to conf R Wye
+CPRE,CPRE111,CPRE111: Garren at Little Terteece,51.881878,-2.685973,Garren,Garren Bk - conf Gamber Bk to conf R Wye
+CPRE,CPRE112,CPRE112: Garren at Stoney Bridge,51.877378,-2.668044,Garren,Garren Bk - conf Gamber Bk to conf R Wye
+CPRE,CPRE113,"CPRE113: Garron Brook, Langstone Court",51.923664,-2.698109,Garren,Gamber Bk - source to conf Garren Bk
+CPRE,CPRE118,CPRE118: Llanwarne,51.95138,-2.720857,Gamber,Gamber Bk - source to conf Garren Bk
+CPRE,CPRE120,CPRE120: Skenfrith Monnow Bridge,51.877861,-2.788591,Monnow,Monnow - conf Afon Honddu to conf R Wye
+CPRE,CPRE121,CPRE121: Minnow Tributary at Trewaddock,51.903126,-2.812102,Minnow Tributary,Monnow - conf Afon Honddu to conf R Wye
+CPRE,CPRE122,CPRE122: Garren at Garrendale,51.930495,-2.799755,Garren,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE123,CPRE123: Marlas Brook,51.930479,-2.799908,Misc,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE124,CPRE124: Garren at Green Farm,51.933802,-2.765267,Garren,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE125,CPRE125: Garron at Gallys Bridge,51.9137,-2.754971,Garren,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE126,CPRE126: Furnace Bridge,51.906148,-2.739869,Garren,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE127,CPRE127: Near Scotland Barn,51.903164,-2.751721,Misc,Garren Bk - source to conf Gamber Bk
+CPRE,CPRE129,CPRE129: Sellack Church Brook,51.94545,-2.633025,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE130,CPRE130: New Harp Inn. Wriggle Brook,51.95989,-2.663056,Wriggle Brook,Wriggle Bk - source to conf R Wye
+CPRE,CPRE131,CPRE131: Cottage of Content Carey,51.97635,-2.63757,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE132,CPRE132: The Ford lower Witherstone,51.981981,-2.645859,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE133,CPRE133: Aconbury Court,51.998663,-2.702031,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE134,CPRE134: Wrigglebrook near New Mills Farm,51.966984,-2.693017,Wriggle Brook,Wriggle Bk - source to conf R Wye
+CPRE,CPRE135,"CPRE135: Norton Brook, Farm near Callow",52.017037,-2.723575,Norton Brook [Hereford],Norton Bk - source to conf R Wye
+CPRE,CPRE136,"CPRE136: Withy Brook, Bullinghope",52.032234,-2.714272,Withy Brook,Norton Bk - source to conf R Wye
+CPRE,CPRE137,"CPRE137: Cage Brook, Ruckhall Mill",52.045726,-2.800292,Cage Brook,Cage Bk - source to conf R Wye
+CPRE,CPRE138,"CPRE138: Cage Brook, Millville Ford",52.033288,-2.817243,Cage Brook,Cage Bk - source to conf R Wye
+CPRE,CPRE140,CPRE140: Bage Mill Trin,52.052825,-2.854315,Misc,Wye - Bredwardine Br to Hampton Bishop
+CPRE,CPRE141,"CPRE141: Worm Brook, kivernoll",51.990869,-2.775535,Worm Brook,Worm Bk - source to confl R Dore
+CPRE,CPRE142,CPRE142: Trib worm Brook,51.990688,-2.775538,Worm Brook,Worm Bk - source to confl R Dore
+CPRE,CPRE144,CPRE144: Sellack Bridge,51.92603,-2.62765,Misc,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE148,"CPRE148: Castle brook, near Walford church",51.881724,-2.600382,Castle Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE149,"CPRE149: Bailey Brook, Hope Mansel",51.876568,-2.547301,Bailey Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE150,"CPRE150: Bailey Brook, parkfields",51.892884,-2.539815,Bailey Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE151,CPRE151: Pontshill,51.895973,-2.526593,Bailey Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE152,CPRE152: Netherton brook,51.928404,-2.578819,Netherton Brook,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE153,"CPRE153: Wells Brook, Bridstow",51.919727,-2.61236,Wells Brook,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE154,CPRE154: Bridge on Monnow Kentchurch,51.920786,-2.846273,Monnow,Monnow - conf Afon Honddu to conf R Wye
+CPRE,CPRE155,CPRE155: Bridge at Kentchurch church,51.92607,-2.845081,Misc,Monnow - conf Afon Honddu to conf R Wye
+CPRE,CPRE157,CPRE157: Wrigglebrook The Oaks,51.967282,-2.678666,Wriggle Brook,Wriggle Bk - source to conf R Wye
+CPRE,CPRE158,"CPRE158: Redbrook, Hoarwithy",51.958483,-2.663206,Red Brook,Wriggle Bk - source to conf R Wye
+CPRE,CPRE160,"CPRE160: Mally Brook, Welsh Newton downstream Pembridge House",51.94534,-2.677966,Mally Brook,Wriggle Bk - source to conf R Wye
+CPRE,CPRE161,"CPRE161: Mally Brook, Bridge Welsh Newton",51.858007,-2.728926,Mally Brook,Wye - conf Walford Bk to Bigsweir Br
+CPRE,CPRE164,"CPRE164: The Old Post Office, Mordiford",52.032905,-2.628166,Pentaloe Brook,Pentaloe Bk - source to conf R Wye
+CPRE,CPRE165,"CPRE165: Pentaloe Brook, a a wood, Nr Woolhope.",52.03803,-2.56837,Pentaloe Brook,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE166,CPRE166: Perryfield Sollers Hope,51.99227,-2.565355,Misc,How Caple Bk - source to conf R Wye
+CPRE,CPRE167,"CPRE167: Common Hill Lane, Fownhope.",52.006746,-2.60963,Common Hill Lane,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE168,"CPRE168: Upton Brook, Middleton on the hill",52.277121,-2.67271,Upton Brook,[Teme east area]
+CPRE,CPRE169,"CPRE169: Upton Brook, Nurton Court Drive",52.281113,-2.66982,Upton Brook,[Teme east area]
+CPRE,CPRE170,CPRE170: Ford Farm Brook,52.28097,-2.666503,Misc,[Teme east area]
+CPRE,CPRE171,"CPRE171: Upton Brook, Lynch Lane",52.286139,-2.664494,Upton Brook,[Teme east area]
+CPRE,CPRE172,"CPRE172: Upton Brook, Upper Upton Farm",52.293161,-2.663188,Upton Brook,[Teme east area]
+CPRE,CPRE173,"CPRE173: West Brook, West Brook cottage",52.30521,-2.659712,West Brook,[Teme east area]
+CPRE,CPRE174,"CPRE174: River Teme, little Hereford bridge",52.309701,-2.666619,Teme,[Teme east area]
+CPRE,CPRE175,CPRE175: Brook House Brook,52.321781,-2.668608,Misc,[Teme east area]
+CPRE,CPRE176,"CPRE176: Brimfield Brook, Brimfield Hall",52.308136,-2.697001,Brimfield Brook,[Teme east area]
+CPRE,CPRE177,CPRE177: Tenbury Kyre Brook,52.311337,-2.591914,Kyre Brook,[Teme east area]
+CPRE,CPRE178,CPRE178: Brk at Snowhill Cottage Putley green,52.027012,-2.512331,Misc,[Ledbury area]
+CPRE,CPRE179,"CPRE179: Brk at Kynaston , Much Marcle",52.020814,-2.521527,Misc,[Ledbury area]
+CPRE,CPRE180,"CPRE180: Preston Brook, new House Bridge",52.002771,-2.461829,Preston Brook,[Ledbury area]
+CPRE,CPRE181,"CPRE181: Ludstock Brook, Little Marcle Rd",52.034062,-2.465021,Ludstock Brook,[Ledbury area]
+CPRE,CPRE183,CPRE183: Pontrilas,51.943986,-2.881649,"Dulas, Ewyas Harold",Dulas Bk - source to conf R Dore
+CPRE,CPRE185,"CPRE185: Oxlet Brook, Walford",51.864483,-2.592171,Oxlet Brook,Wye - conf Walford Bk to Bigsweir Br
+CPRE,CPRE187,"CPRE187: Marling Pitts Brook, Howle Hill, Walford",51.8816,-2.58616,Marling Pitts Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE189,CPRE189: Unnamed Brook above Dunderhole,51.871689,-2.577045,Misc,Wye - conf Walford Bk to Bigsweir Br
+CPRE,CPRE190,"CPRE190: Castlebrook, Bulls Hill, Walford",51.88693,-2.58922,Castle Brook,Walford Bk - source to conf R Wye
+CPRE,CPRE192,"CPRE192: Plainsbrook, Yarpole",52.279101,-2.777502,PlainsBrook,Ridgemoor Bk - source to conf R Lugg
+CPRE,CPRE193,CPRE193: Llanfairwaterdine bridge,52.377352,-3.110345,Teme,[Teme west area]
+CPRE,CPRE194,"CPRE194: River Teme, Little Hereford Church",52.307809,-2.655554,Teme,[Teme east area]
+CPRE,CPRE195,"CPRE195: River Redlake, Leintwardine",52.367234,-2.892447,Redlake,[Teme west area]
+CPRE,CPRE196,"CPRE196: River Clun, Jay Bridge",52.369393,-2.891251,Clun,[Teme west area]
+CPRE,CPRE197,"CPRE197: River Teme, Buckton Bridge",52.352082,-2.901431,Teme,[Teme west area]
+CPRE,CPRE198,"CPRE198: Escley Brook, Longtown",51.953442,-2.979604,Escley Brook,Escley Bk - source to conf R Monnow
+CPRE,CPRE199,CPRE199: River Mynwg Clodock Longtown,51.953145,-2.980959,Afon Mynwg,Monnow  - source to conf Escley Bk
+CPRE,CPRE200,"CPRE200: Monnow, Clodock Bridge",51.941424,-2.980584,Monnow,Monnow - conf Escley Bk to conf Afon Honddu
+CPRE,CPRE201,CPRE201: Near Junction with Cumcoched Longtown,51.938133,-2.985681,Afon Mynwg,Monnow - conf Escley Bk to conf Afon Honddu
+CPRE,CPRE202,"CPRE202: Olchon Brook, Longtown Ford",51.950473,-2.985726,Olchon Brook,Olchon Bk - source to conf R Monnow
+CPRE,CPRE203,"CPRE203: Olchon Brook, Turnant",51.961965,-3.002869,Olchon Brook,Olchon Bk - source to conf R Monnow
+CPRE,CPRE204,"CPRE204: Monnow, Llanveynoe (Monnow Farm)",51.979396,-3.006456,Monnow,Monnow  - source to conf Escley Bk
+CPRE,CPRE205,"CPRE205: Escley Brook, Sunnybank",51.974221,-2.969954,Escley Brook,Escley Bk - source to conf R Monnow
+CPRE,CPRE206,"CPRE206: Monnow, Crucorney Pandy",51.90466,-2.967702,Monnow,Monnow - conf Escley Bk to conf Afon Honddu
+CPRE,CPRE207,"CPRE207: Honddu, Wooden Bridge",51.904094,-2.967396,Honddu,Afon Honddu - source to conf R Monnow
+CPRE,CPRE208,"CPRE208: Wye, the Gatehouse Hole in the Wall",51.955813,-2.568228,Wye,Wye - Hampton Bishop to conf Kerne Br
+CPRE,CPRE209,"CPRE209: Escley Brook, The Groves Longtown",51.956137,-2.978467,Escley Brook,Escley Bk - source to conf R Monnow
+CPRE,CPRE210,"CPRE210: Olchon, Glandwr, Llanveynoe",51.978544,-3.036575,Olchon Brook,Olchon Bk - source to conf R Monnow
+CPRE,CPRE211,"CPRE211: Olchon, Llanveynoe",51.985082,-3.045759,Olchon Brook,Olchon Bk - source to conf R Monnow
+CPRE,CPRE212,CPRE212: Brass Knoll,51.970464,-3.012825,Olchon Brook,Olchon Bk - source to conf R Monnow
+CPRE,CPRE213,CPRE213: Court llaca,51.969519,-2.989508,Monnow,Monnow  - source to conf Escley Bk
+CPRE,CPRE214,"CPRE214: Arrow, Eardisland Bridge",52.223413,-2.850841,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE215,"CPRE215: Arrow, Bridge Ivington Rd Nr Newtown",52.20929,-2.770503,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE216,"CPRE216: Arrow, Bridge Broadward, Leominster",52.209371,-2.736368,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE217,"CPRE217: Curl Brook, Holme Marsh Lyonshall",52.193146,-2.969795,Curl Brook,Curl Bk - source to conf R Arrow
+CPRE,CPRE218,CPRE218: Unnamed feeder brook to Wye Lower Welson,52.143718,-3.028107,Misc,Willersley Bk - source to conf R Wye
+CPRE,CPRE219,CPRE219: Unnamed Brook Woods Eaves Lower Welson,52.135578,-3.041908,Misc,Willersley Bk - source to conf R Wye
+CPRE,CPRE220,"CPRE220: Unnamed Brook Gypsy Hall Bridge, Ameley",52.144499,-2.999714,Misc,Kinnersley Bk - source to conf R Wye
+CPRE,CPRE221,"CPRE221: Arrow, Mahollam Bridge",52.182258,-3.064524,Arrow,Arrow - source to conf Gladestry Bk
+CPRE,CPRE222,"CPRE222: Arrow, Hergest Bridge",52.189589,-3.054624,Arrow,Arrow - conf Gladestry Bk to conf Gilwern Bk
+CPRE,CPRE223,"CPRE223: Back Brook, Floodgates, Montfort Rd, Kington",52.206433,-3.043889,Back Brook,Gilwern Bk - source to conf R Arrow
+CPRE,CPRE224,"CPRE224: Arrow, Nr Downfield Fm Kington",52.209317,-3.002004,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE225,"CPRE225: Arrow, Tittley Mill Lyonshall",52.220771,-2.984034,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE226,"CPRE226: Arrow, Pembridge",52.221149,-2.893477,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE227,"CPRE227: Arrow, Nr Noake Court Pembridge",52.230959,-2.919023,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE228,"CPRE228: Tippets Brook, Nr Luntley Court Bearwood",52.196919,-2.889542,Tippets Brook,Tippets Bk - source to conf Stretford Bk
+CPRE,CPRE229,"CPRE229: Newbridge Brook,Weobley",52.162449,-2.886142,Newbridge Brook,Stretford Bk - source to conf R Arrow
+CPRE,CPRE230,"CPRE230: Hindwell Brook, Combe",52.265187,-2.960778,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+CPRE,CPRE231,"CPRE231: Lugg, Rossers Bridge, Presteigne",52.270955,-2.955977,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE232,"CPRE232: Lugg, Lower Kinsham",52.276075,-2.934879,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE233,"CPRE233: Lugg, Deerfold Bridge, Aymestry",52.281951,-2.909641,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE234,"CPRE234: Lugg, Ford St Presteign",52.275429,-3.003193,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE235,"CPRE235: Hindwell Brook, Broadhurst Bridge",52.251168,-3.022268,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+CPRE,CPRE236,"CPRE236: Hindwell Brook, Birtley Cross",52.312594,-2.930798,Hindwell Brook,Lime Bk - source to conf R Lugg
+CPRE,CPRE237,"CPRE237: Hindwell Brook, Nr Arthur Ridges Wood",52.319952,-2.947862,Hindwell Brook,Lime Bk - source to conf R Lugg
+CPRE,CPRE238,"CPRE238: Parsons Pole Bridge, Brampton Bryan",52.350811,-2.924236,Teme,[Teme east area]
+CPRE,CPRE239,"CPRE239: Teme, Letwardine Bridge, Whitton",52.359328,-2.876346,Teme,[Teme east area]
+CPRE,CPRE240,"CPRE240: Teme, Burrington Bridge",52.343669,-2.829427,Teme,[Teme east area]
+CPRE,CPRE241,"CPRE241: Allcocks Brook, Allcocks Bridge, Leinthall Starkes",52.319386,-2.845304,Allcocks Brook,[Teme east area]
+CPRE,CPRE243,"CPRE243: Lodon, Panks Bridge, Bishops Frome",52.131293,-2.54604,Lodon,Lodon - source to conf R Frome
+CPRE,CPRE244,"CPRE244: Trib of Lodden, White House, Little Cowarne",52.157193,-2.579136,Misc,Lodon - source to conf R Frome
+CPRE,CPRE245,CPRE245: Unnamed Brook centre of Pencombe,52.171289,-2.587711,Misc,Lodon - source to conf R Frome
+CPRE,CPRE246,"CPRE246: Unnamed Brook, Kings Rd, Comberton",52.304239,-2.739087,Misc,[Teme east area]
+CPRE,CPRE247,CPRE247: Unnamed Brook by Telephone Box in Luston,52.265888,-2.754382,Misc,Ridgemoor Bk - source to conf R Lugg
+CPRE,CPRE248,"CPRE248: Lugg, Lugg Green Road, Kingsland",52.25451,-2.809131,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE249,"CPRE249: Lugg, B4362, Mortimores Cross",52.268313,-2.841724,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE250,"CPRE250: River Lugg, Eaton Bridge",52.222442,-2.722714,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE251,"CPRE251: River Arrow, Footbridge in Noke Valley Estate",52.229369,-2.954523,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE252,CPRE252: Curl Brook Violets Bridge,52.21813,-2.903079,Curl Brook,Curl Bk - source to conf R Arrow
+CPRE,CPRE253,CPRE253: Stansbach Brook Outfall,52.237966,-2.946948,Stansbach Brook,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE254,CPRE254: Stansbach Brook Upperton House,52.243033,-2.957474,Stansbach Brook,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE255,"CPRE255: Arrow, Pembridge Bridge",52.221149,-2.893477,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE256,CPRE256: Curl Brook Lyonshall,52.1932,-2.969707,Curl Brook,Curl Bk - source to conf R Arrow
+CPRE,CPRE257,CPRE257: Pinsley Brook Shobden,52.252924,-2.878502,Pinsley Brook,Pinsley Bk - source to conf R Lugg
+CPRE,CPRE259,"CPRE259: Newbridge Brook,Weobley",52.162476,-2.886142,Newbridge Brook,Stretford Bk - source to conf R Arrow
+CPRE,CPRE260,"CPRE260: Arrow, Twyford Farm",52.225919,-2.88458,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE262,"CPRE262: Arrow, Mill Stream Eardisland",52.22317,-2.850973,Misc,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE263,"CPRE263: Tadpole Brook, Eardisland",52.218669,-2.851722,Tadpole Brook,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE264,"CPRE264: Tadpole Brook, Eardisland",52.219397,-2.84789,Tadpole Brook,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE265,CPRE265: Millstream off Arrow Eardisland,52.223574,-2.863967,Misc,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE267,"CPRE267: Gad Brook, Gad Bridge Weobley",52.164255,-2.857177,Misc,Stretford Bk - source to conf R Arrow
+CPRE,CPRE268,"CPRE268: Gad Brook, Weobley Marsh",52.15404,-2.855112,Misc,Stretford Bk - source to conf R Arrow
+CPRE,CPRE269,"CPRE269: Newbridge Brook, Weobley",52.164281,-2.883988,Newbridge Brook,Stretford Bk - source to conf R Arrow
+CPRE,CPRE270,CPRE270: River Lugg (New Bridge) Leominster,52.235487,-2.744649,Lugg,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE271,CPRE271: Kenwater/Lugg Leominster,52.230366,-2.73672,Misc,Lugg - conf Norton Bk to conf R Arrow
+CPRE,CPRE272,CPRE272: Mowley Brook,52.235648,-2.953378,Mowley Brook,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE273,CPRE273: Arrow at Titley,52.220744,-2.984034,Arrow,Arrow - conf Gilwern Bk to conf R Lugg
+CPRE,CPRE274,CPRE274: Arrow at Kington,52.201932,-3.026905,Arrow,Arrow - conf Gladestry Bk to conf Gilwern Bk
+CPRE,CPRE275,CPRE275: Gilwern Brook at Kington,52.20646,-3.039137,Gilwern Brook,Gilwern Bk - source to conf R Arrow
+CPRE,CPRE276,CPRE276: Arrow at Hergest Bridge,52.189562,-3.054624,Arrow,Arrow - conf Gladestry Bk to conf Gilwern Bk
+CPRE,CPRE277,CPRE277: Gladestry Brook at Gladestry,52.188241,-3.12599,Gladestry Brook,Gladestry Bk - source to conf R Arrow
+CPRE,CPRE278,"CPRE278: Almeley Brook at Upcott, Almeley",52.159107,-2.980727,Almeley Brook,Letton Lake Bk - source to conf R Wye
+CPRE,CPRE326,"CPRE326: River Teme, Knucklas Bridge",52.368952,-3.101302,Teme,[Teme west area]
+CPRE,CPRE327,"CPRE327: River Teme, Hawthorns Felindre",52.430163,-3.23114,Teme,[Teme west area]
+CPRE,CPRE328,"CPRE328: River Teme, Station Bridge Knighton",52.277121,-2.67271,Teme,[Teme east area]
+CPRE,CPRE329,"CPRE329: River Teme, Dutlas bridge",52.39605,-3.160675,Teme,[Teme west area]
+FOLW,FOLW011,FOLW011: Cat Brook by the chapel,51.705427,-2.682132,Cat Brook,[Brockweir area]
+FOLW,FOLW013,FOLW013: Mork Brook FB by the Wye,51.740052,-2.671068,Mork Brook,[Brockweir area]
+FOLW,FOLW015,FOLW015: Whitebrook Low,51.758368,-2.671613,White Brook,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW016,FOLW016: Whitebrook Higher up,51.755953,-2.677032,White Brook,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW017,"FOLW017: Bigwell Fishery, Redbrook",51.782417,-2.666057,Bigwell Fishery,Valley Bk - source to conf R Wye
+FOLW,FOLW018,"FOLW018: Valley Brook, Redbrook",51.78256,-2.66718,Valley Brook,Valley Bk - source to conf R Wye
+FOLW,FOLW019,"FOLW019: Red Brook, Redbrook",51.78915,-2.673027,Red Brook,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW020,FOLW020: Trothy by Troy House,51.799739,-2.713329,Trothy,Trothy - conf Llymon Bk to conf R Wye
+FOLW,FOLW021,FOLW021: Trothy by Millbrook Garden Centre,51.797346,-2.722168,Trothy,Trothy - conf Llymon Bk to conf R Wye
+FOLW,FOLW022,FOLW022: Monnow at Osbaston,51.819946,-2.721911,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW023,FOLW023: Monnow at Llangua,51.92726,-2.89024,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW024,FOLW024: Monnow at Tregate Bridge,51.851923,-2.760525,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW025,FOLW025: Trothy at Jingle St,51.792516,-2.761933,Trothy,Trothy - conf Llymon Bk to conf R Wye
+FOLW,FOLW026,FOLW026: Trothy at Dingestow,51.788906,-2.785041,Trothy,Trothy - conf Llymon Bk to conf R Wye
+FOLW,FOLW027,FOLW027: Cleddon Brook at Llandogo,51.733998,-2.688947,Cleddon Brook ,[Brockweir area]
+FOLW,FOLW028,FOLW028: Trothy at Abbey Bridge,51.816764,-2.801612,Trothy,Trothy - conf Llymon Bk to conf R Wye
+FOLW,FOLW029,FOLW029: Trothy at Onen Bridge,51.825234,-2.827291,Trothy,Trothy - conf Llanymynach Bk to conf Llymon Bk
+FOLW,FOLW030,FOLW030: Trothy at Llantilio Crossenny,51.82669,-2.873713,Trothy,Trothy - conf Llanymynach Bk to conf Llymon Bk
+FOLW,FOLW031,FOLW031: Monnow at Two River Meadow,51.805826,-2.71011,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW032,FOLW032: Monnow at Monmouth Old Bridge,51.80886,-2.719884,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW033,FOLW033: Trothy at FB nr Halfway Inn,51.8314,-2.853404,Trothy,Trothy - conf Llanymynach Bk to conf Llymon Bk
+FOLW,FOLW034,FOLW034: Monnow at Rockfield,51.8308,-2.752714,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW035,FOLW035: Monnow at Skenfrith,51.877978,-2.7885,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW036,"FOLW036: Monnow at Kentchurch, Grosmont Bridge",51.926976,-2.857708,Monnow,Monnow - conf Afon Honddu to conf R Wye
+FOLW,FOLW037,FOLW037: Trothy: Llanymynach Brook at Llanfable rb nr Red Hart Inn,51.8214546,-2.9227949,Trothy,Llanymynech Bk - source to conf R Trothy
+FOLW,FOLW038,FOLW038: Trothy at Blaentrothy,51.89215,-2.911709,Trothy,Trothy - Source to Conf Llanymynech Bk
+FOLW,FOLW039,FOLW039: Trothy at Great House Farm ,51.874906,-2.908346,Trothy,Trothy - Source to Conf Llanymynech Bk
+FOLW,FOLW040,FOLW040: Trothy / Full Brook at Pont Gilbert ,51.85639,-2.915859,Trothy,Trothy - Source to Conf Llanymynech Bk
+FOLW,FOLW041,FOLW041: Trothy at Pont Gilbert ,51.854989,-2.91481,Trothy,Trothy - Source to Conf Llanymynech Bk
+FOLW,FOLW042,FOLW042: Trothy / TreRhew at Footpath near Pont Gilbert,51.85321,-2.910487,Trothy,Trothy - Source to Conf Llanymynech Bk
+FOLW,FOLW043,FOLW043: Honddu near Llanthony,51.94529,-3.041716,Honddu,Afon Honddu - source to conf R Monnow
+FOLW,FOLW061,FOLW061: Wye at Bigsweir,51.744223,-2.669301,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW062,FOLW062: Wye at Meadow below Redbrook,51.781165,-2.675478,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW063,FOLW063: Wye at Redbrook (Steps by green),51.782478,-2.674231,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW064,FOLW064: Wye at Dixton,51.818247,-2.697842,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW065,FOLW065: Wye at end of Hadnock Rd,51.827,-2.6866,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW066,FOLW066: Wye at Biblins,51.83012,-2.646342,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW067,FOLW067: Wye at Stowfield Black Bridge,51.856202,-2.600766,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW068,FOLW068: Wye at Steps north of Redbrook,51.789923,-2.677582,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW069,FOLW069: Wye at Monmouth Show Ground,51.799986,-2.693527,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW070,FOLW070: Wye at Monmouth upstream from Monnow,51.80642,-2.710965,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW071,FOLW071: Wye at Cadora - Bakers Crib,51.776079,-2.675076,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW072,"FOLW072: Wye at Bishopswood, Kerne Bridge",51.865473,-2.608032,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW073,FOLW073: Wye at monitoring building above Redbrook,51.79632,-2.686482,Wye,Wye - conf Walford Bk to Bigsweir Br
+FOLW,FOLW074,FOLW074: Wye at Foy Bridge,51.95278187,-2.576758315,Wye,Wye - Hampton Bishop to conf Kerne Br
+FOLW,FOLW075,FOLW075: Rudhall Brook nr Linton,51.91429172,-2.494952218,Rudhall Brook,Rudhall Bk - source to conf R Wye
+FOLW,FOLW076,FOLW076: Anghidi at Tintern,51.69759763,-2.6874731,Anghidi,Tintern Bk - source to conf R Wye
+FOLW,FOLW077,FOLW077: Monnow at Rowlestone/Pandy,51.90464,-2.967785124,Monnow,Monnow - conf Escley Bk to conf Afon Honddu
+FOLW,FOLW078,FOLW078: Norton Brook at Skenfrith,51.8803822,-2.79591882,Norton Brook [Skenfrith],Norton Bk - source to conf R Monnow
+FOLW,FOLW079,FOLW079: Llymon Brook,51.8319036,-2.818750954,Llymon Brook ,Llymon Bk - source to conf R Trothy
+FOLW,FOLW080,FOLW080: Cat Brook Upper,51.72177,-2.712927,Cat Brook,tbc
+FOLW,FOLW083,FOLW083: Wye Sellack Boat,51.94893809,-2.634422074,Wye,Wye - Hampton Bishop to conf Kerne Br
+FOUW,FOUW001,FOUW001: Hardwicke Brook Priory Farm,52.09275,-3.09034,Hardwicke Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW002,FOUW002: Hardwicke Brook Mill Cottage,52.07836,-3.0734,Hardwicke Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW004,FOUW004: Llynfi 600m upstream Bronllys Castle,51.99748,-3.2347,Ennig,Ennig - source to conf Afon Llynfi
+FOUW,FOUW005,FOUW005: Wye downstream conf Llynfi,52.04292,-3.19919,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW006,FOUW006: Llynfi Nant Twmpa Three Cocks,52.033,-3.20218,Llynfi Nant,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW007,FOUW007: Wye Glasbury Bridge,52.045507,-3.197873,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW008,FOUW008: Llynfi GPBiotec outfall [downstream],52.01063,-3.23333,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW009,FOUW009: Llynfi Talgarth WWTW outfall [downstream],52.00516,-3.23863,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW010,FOUW010: Llynfi Pontithel Bridge,52.021682,-3.220579,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW011,FOUW011: Llynfi Glasbury,52.04987,-3.19564,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW012,FOUW012: Wye Glasbury,52.041572,-3.211597,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW014,FOUW014: Llynfi CwmBach,52.04873,-3.21597,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW015,FOUW015: Hardwicke Brook Penhenllan,52.072539,-3.081732,Hardwicke Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW016,FOUW016: Hardwicke Brook Pont Vaen,52.087039,-3.117119,Hardwicke Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW017,FOUW017: Nant Pontithel,52.021601,-3.220404,Nant Pontithel,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW018,FOUW018: CusopDulas BlackLion,52.0748,-3.12173,Cusop Dingle,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW019,FOUW019: Wye WyefordRoadSlipway,52.077741,-3.125724,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW021,FOUW021: CusopDulas KissingBridge,52.065424,-3.120548,Cusop Dingle,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW022,FOUW022: StMarys Monnington,52.08459,-2.91577,Misc,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW024,FOUW024: Westbrook B4348,52.0892,-3.05012,Westbrook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW025,FOUW025: Cilkenni FfynnonGynydd,52.069359,-3.218618,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW028,FOUW028: CusopDulas VillageHall,52.076,-3.11926,Cusop Dulas,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW029,FOUW029: Rockfield Allotments Bladon Crescent,52.055722,-2.703487,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW030,FOUW030: Eign A49 A465,52.062487,-2.715768,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW031,FOUW031: Wye Hereford Rowing Club,52.051679,-2.72182,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW032,FOUW032: Yazor Towtree Lane,52.080786,-2.766908,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW033,FOUW033: Wye Conf NewtonBrook,52.047421,-2.73625,Newton Brook,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW034,FOUW034: NewtonBr southern streams,52.045777,-2.736162,Newton Brook,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW036,FOUW036: Yazor ThreeElmsRoad Bridge,52.069063,-2.743969,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW038,FOUW038: NewtonBr Western streams,52.045777,-2.736425,Newton Brook,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW039,FOUW039: Yazor Towtree Lane N of ID32,52.0802,-2.7657,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW041,FOUW041: Llowes tributary E-Llowes,52.07181,-3.16989,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW042,FOUW042: CusopDulas E trib Nantyglasdwr Road,52.07615,-3.11945,Cusop Dulas,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW043,FOUW043: Wye BredwardineBridge,52.096742,-2.969244,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW044,FOUW044: HayLogin Cemetery,52.070248,-3.130811,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW045,FOUW045: Llowes church,52.067473,-3.180241,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW046,FOUW046: CusopDulas nrChchRd CusDingle Jcn,52.0682,-3.118531,Cusop Dingle,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW047,FOUW047: ClyroBk ClyroChurch,52.087605,-3.149302,Clyro Brook,Clyro Bk - source to conf R Wye
+FOUW,FOUW049,FOUW049: CusopDulas minorstream S dingle,52.06558,-3.115352,Cusop Dingle,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW050,FOUW050: Wye WhitneyTollBridge,52.120162,-3.083882,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW052,FOUW052: MillHalf ChapelRoad,52.13197,-3.07109,Misc,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW053,FOUW053: ClyroBk upstream,52.091621,-3.178543,Clyro Brook,Clyro Bk - source to conf R Wye
+FOUW,FOUW054,FOUW054: CusopDulas E trib MouseCastle,52.07168,-3.10235,Cusop Dulas,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW055,FOUW055: Eardisley LettonLakes,52.11838,-2.98369,Kinnersley Brook,Kinnersley Bk - source to conf R Wye
+FOUW,FOUW056,FOUW056: Westbrook NewtonLn confBachBk,52.09607,-3.04094,Westbrook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW057,FOUW057: Llynfi PiptonBridge,52.033837,-3.214664,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW058,FOUW058: Llynfi Cathedine,51.91577,-3.25769,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW059,FOUW059: Llynfi Nant Twmpa W stream,52.031951,-3.181498,Llynfi Nant,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW060,FOUW060: Llynfi Nant Twmpa E stream,52.032355,-3.181892,Llynfi Nant,Afon Llynfi - conf Dulas Bk to conf R Wye
+FOUW,FOUW061,FOUW061: CabalvaBk top W,52.10865,-3.14746,Cabalva Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW062,FOUW062: Wye Winforton birdhide pool,52.11003,-3.03541,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW063,FOUW063: Wye 200yds downstream Hay WWTW,52.08429,-3.1223,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW064,FOUW064: Nant Henllan conf Wye,52.087255,-3.332302,Nant Hanllan,Wye - conf R Irfon to Scithwen Bk
+FOUW,FOUW065,FOUW065: Yazor Credenhill,52.0803,-2.80467,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW066,FOUW066: CageBk conf Wye,52.049119,-2.794715,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW068,FOUW068: Wye Victoria bridge,52.051086,-2.712215,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW069,FOUW069: Ennig Talgarth Mill,51.99605,-3.23322,Ennig,Ennig - source to conf Afon Llynfi
+FOUW,FOUW070,FOUW070: EatonBishop stream,52.052595,-2.803882,Misc,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW071,FOUW071: WithyBk Holme Lacy Rd,52.040926,-2.705069,Withy Brook,Norton Bk - source to conf R Wye
+FOUW,FOUW072,FOUW072: Wye Bridge Sollars,52.07709,-2.85853,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW073,FOUW073: CageBk ford W Clehonger,52.035697,-2.811361,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW074,FOUW074: Irfon Pheasantry,52.147679,-3.420249,Irfon,Irfon - conf Cledan to conf R Wye
+FOUW,FOUW077,FOUW077: Ithon ShakyBridge,52.24196,-3.34199,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW078,FOUW078: Ithon LoversLeap dwnstrm,52.238451,-3.390966,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW079,FOUW079: ClewedogBk Crossgates,52.3296,-3.36806,Clywedog Brook,Clywedog Bk - source to conf Bachell Bk
+FOUW,FOUW080,FOUW080: BachalBk Clewedog,52.33464,-3.3537,Bachal Brook,Bachell Bk - source to conf Clywedog Bk
+FOUW,FOUW082,FOUW082: Bachawy Upper,52.09362,-3.27689,Bachawy,Bach Howey Bk - source to conf R Wye
+FOUW,FOUW083,FOUW083: Dulas Llanafan,52.16563,-3.54081,Afon Garth Dulas,Afon Garth Dulas - source to conf R Irfon
+FOUW,FOUW084,FOUW084: Nant y Arian nr Irfon,52.14574,-3.41612,Misc,Irfon - conf Cledan to conf R Wye
+FOUW,FOUW085,FOUW085: Afon Cammarch Llangammarch,52.11372,-3.55754,Afon Cammarch,Afon Cammarch - source to conf R Irfon
+FOUW,FOUW086,FOUW086: Chwefri nr Llangarten,52.15557,-3.44934,Chwefri,Afon Chwefru - source to conf R Irfon
+FOUW,FOUW087,FOUW087: Wye S Doldowlod,52.249906,-3.46505,Wye,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW088,FOUW088: Wye Llysdinam,52.21732,-3.44818,Wye,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW089,FOUW089: Wye Penbont,52.2085,-3.44627,Wye,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW090,FOUW090: Bachawy conf Wye,52.07626,-3.30524,Bachawy,Bach Howey Bk - source to conf R Wye
+FOUW,FOUW091,FOUW091: Irfon Llangammarch,52.111646,-3.556924,Irfon,Irfon - conf Cledan to conf R Wye
+FOUW,FOUW092,FOUW092: Elan conf Wye,52.27891,-3.5161,Elan,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW093,FOUW093: Nant Gloew confWyeBuilth,52.15075,-3.39906,Nant Gloew,Wye - conf R Irfon to Scithwen Bk
+FOUW,FOUW094,FOUW094: Irfon RhosferigBridge,52.15288,-3.41454,Irfon,Irfon - conf Cledan to conf R Wye
+FOUW,FOUW095,FOUW095: LlandewiBk Bachawy,52.0894,-3.26903,Bachawy,Bach Howey Bk - source to conf R Wye
+FOUW,FOUW096,FOUW096: Estyn gwyn W Newbridge,52.2219,-3.46373,Misc,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW099,FOUW099: Dulas Llanwrthwl,52.26279,-3.50579,Misc,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW100,FOUW100: Chwefri Llanafan,52.213521,-3.536888,Chwefri,Afon Chwefru - source to conf R Irfon
+FOUW,FOUW101,FOUW101: Wye Rhyader,52.29632,-3.51056,Wye,Wye - conf to conf Afon Marteg to conf Afon Elan
+FOUW,FOUW102,FOUW102: Wye Cwmcoch PontMarteg,52.323779,-3.545745,Wye,Wye - conf to conf Afon Marteg to conf Afon Elan
+FOUW,FOUW103,FOUW103: Wye Goytre Wood,52.175709,-3.459851,Wye,Wye (Avon Gwy) - conf R Ithon to conf R Irfon
+FOUW,FOUW104,FOUW104: Wye Waun Capel,52.3013,-3.51452,Wye,Wye - conf to conf Afon Marteg to conf Afon Elan
+FOUW,FOUW105,FOUW105: Ennig Troed yr Harn,51.98991,-3.22818,Ennig,Ennig - source to conf Afon Llynfi
+FOUW,FOUW106,FOUW106: MaesBk Dolau,52.2947,-3.23472,Misc,Aran - source to conf R Ithon
+FOUW,FOUW107,FOUW107: Aran SW Dolau,52.286586,-3.25773,Misc,Aran - source to conf R Ithon
+FOUW,FOUW108,FOUW108: Ithon N Cefnllys,52.2801,-3.30538,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW109,FOUW109: Cage Bk Arkstone Mill,52.017154,-2.83077,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW110,FOUW110: Wye N Rotherwas,52.0437,-2.67594,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW111,FOUW111: Wye Byford,52.07731,-2.876864,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW112,FOUW112: Preston Court Lake,52.07642,-2.900724,Misc,Preston Bk - source to conf R Wye
+FOUW,FOUW114,FOUW114: Letton Lake Kinnersley,52.13965,-2.9468,Letton Lake Brook,Letton Lake Bk - source to conf R Wye
+FOUW,FOUW115,FOUW115: Edw BetysDisserth,52.2006,-3.295077,Misc,Edw - source to conf Colwyn Bk
+FOUW,FOUW116,FOUW116: Edw Vron,52.16983,-3.28144,Misc,Edw - conf Camnant Bk to conf Clas Bk
+FOUW,FOUW117,FOUW117: Wye Erwood Stn;,52.08591,-3.33204,Wye,Wye - conf R Irfon to Scithwen Bk
+FOUW,FOUW118,FOUW118: conf Spond Welson bks;,52.14078,-2.9864,Kinnersley Brook,Kinnersley Bk - source to conf R Wye
+FOUW,FOUW119,FOUW119: Digedi L Ffordd Fawr;,52.058336,-3.165636,Digedi Brook,Digedi Bk - source to conf R Wye
+FOUW,FOUW120,FOUW120: CusopDulas Caenantmelyn;,52.05993,-3.12406,Cusop Dingle,Hay Dulas Bk - source to conf R Wye
+FOUW,FOUW121,FOUW121: Wye BoughroodBeach;,52.03917,-3.2661,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW123,FOUW123: Aran GreatCantal,52.348682,-3.240576,Misc,Aran - source to conf R Ithon
+FOUW,FOUW126,FOUW126: Wye CliffordCliff,52.104827,-3.105967,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW128,FOUW128: Ennig BMC,51.981013,-3.21759,Ennig,Ennig - source to conf Afon Llynfi
+FOUW,FOUW129,FOUW129: Llynfi Trefecca,51.982037,-3.252867,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW130,FOUW130: Llynfi Trefecca downstream,51.983492,-3.251991,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW132,FOUW132: DigediBk Llanigon,52.05637,-3.15388,Digedi Brook,Digedi Bk - source to conf R Wye
+FOUW,FOUW135,FOUW135: Ennig Troed-yr-harn,51.97969,-3.21238,Misc,Ennig - source to conf Afon Llynfi
+FOUW,FOUW136,FOUW136: Yazor PrioryStrettonSugwas,52.08141,-2.78358,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW137,FOUW137: Llynfi Ellywe,52.000121,-3.189997,Misc,Ennig - source to conf Afon Llynfi
+FOUW,FOUW138,FOUW138: Wye QuayStHereford,52.05316,-2.71441,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW139,FOUW139: LettonLake PigSt,52.132722,-2.940115,Letton Lake Brook,Letton Lake Bk - source to conf R Wye
+FOUW,FOUW141,FOUW141: AgriCollBk HolmeLacy,52.02055,-2.65588,Misc,Wye - Hampton Bishop to conf Kerne Br
+FOUW,FOUW142,FOUW142: Wye BuilthRd WernWood,52.1620496,-3.4213572,Wye,Wye (Avon Gwy) - conf R Ithon to conf R Irfon
+FOUW,FOUW143,FOUW143: Irfon CaerBeris,52.14585,-3.421,Irfon,Irfon - conf Cledan to conf R Wye
+FOUW,FOUW144,FOUW144: HolywellDingle Lemore,52.15533,-3.00826,Kinnersley Brook,Kinnersley Bk - source to conf R Wye
+FOUW,FOUW145,FOUW145: CageBk NewBarns,52.045534,-2.802566,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW149,FOUW149: CageBk KingstoneTrib,52.03125,-2.82525,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW150,FOUW150: CageBk MadleyTrib,52.031546,-2.825294,Cage Brook,Cage Bk - source to conf R Wye
+FOUW,FOUW151,FOUW151: Wye Warren,52.072054,-3.143487,Wye,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW152,FOUW152: LettonLake Almeley,52.154714,-2.976683,Letton Lake Brook,Letton Lake Bk - source to conf R Wye
+FOUW,FOUW153,FOUW153: LettonLake Highfield,52.145604,-2.955806,Letton Lake Brook,Letton Lake Bk - source to conf R Wye
+FOUW,FOUW155,FOUW155: Duhonw Pen-thiw-llan,52.126011,-3.424029,Duhonw,Duhonw - source to conf R Wye
+FOUW,FOUW156,FOUW156: Nant Treflyn conf Wye,52.254999,-3.472978,Nant Treflyn,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW157,FOUW157: Duhonw conf Wye,52.149836,-3.369792,Duhonw,Duhonw - source to conf R Wye
+FOUW,FOUW158,FOUW158: Wye conf Duhonw,52.142262,-3.364957,Wye,Wye - conf R Irfon to Scithwen Bk
+FOUW,FOUW159,FOUW159: Dyfnant Newbridge-on-Wye,52.213872,-3.44338,Dyfnant,Wye - conf Afon Elan to conf R Ithon
+FOUW,FOUW160,FOUW160: Chwefri Park Bridge,52.151102,-3.416601,Chwefri,Afon Chwefru - source to conf R Irfon
+FOUW,FOUW161,FOUW161: Wye Pont Rhydgaled,52.429671,-3.706277,Wye,Wye - source to conf Afon Tarenig
+FOUW,FOUW162,FOUW162: Mithil Brook at Mithil Bridge,52.260363,-3.283452,Mithil Brook,Mithil Bk - source to conf R Ithon
+FOUW,FOUW163,FOUW163: Ithon Brynthomas,52.250229,-3.310936,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW164,FOUW164: Ithon Cefn Wood,52.282867,-3.315869,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW165,FOUW165: Cwm Hir conf Clywedog Brook,52.328603,-3.394511,Clywedog Brook,Clywedog Bk - source to conf Bachell Bk
+FOUW,FOUW166,FOUW166: Clywedog Brook conf Cwm Hir,52.328711,-3.394599,Clywedog Brook,Clywedog Bk - source to conf Bachell Bk
+FOUW,FOUW167,FOUW167: Ithon upstream Llanbister,52.353506,-3.319055,Ithon,Ithon - conf Gwenlas Bk to conf Camddwr Bk
+FOUW,FOUW168,FOUW168: Dulas Bk Maesgwynne,52.198752,-3.36895,Dulas Brook,Builth Dulas Bk - source to conf R Wye
+FOUW,FOUW169,FOUW169: Dulas Bk conf Wye,52.169968,-3.429184,Dulas Brook,Builth Dulas Bk - source to conf R Wye
+FOUW,FOUW170,FOUW170: Marteg Bk Waun Marteg,52.372911,-3.440568,Marteg Brook,Afon Marteg - source to conf R Wye
+FOUW,FOUW171,FOUW171: Wye conf Nant Gwnog,52.352024,-3.58543,Wye,Wye - conf Afon Bidno to conf Afon Marteg
+FOUW,FOUW172,FOUW172: Nant Gwnog conf Wye,52.351997,-3.585827,Nant Gwnog,Wye - conf Afon Bidno to conf Afon Marteg
+FOUW,FOUW173,FOUW173: Rhid-hyr Bk conf Wye,52.297987,-3.505578,Rhid-hyr Brook,Wye - conf to conf Afon Marteg to conf Afon Elan
+FOUW,FOUW174,FOUW174: Cwm Brook source,52.254218,-3.322785,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW175,FOUW175: Arlais Bk conf Ithon,52.239152,-3.38524,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW176,FOUW176: Willersley Bk Bridge at The Folly,52.140915,-3.015449,Willersley Brook,Willersley Bk - source to conf R Wye
+FOUW,FOUW177,FOUW177: Lime Bk north trib inlet Oak Pool,52.323644,-2.979784,Lime Brook,Lime Bk - source to conf R Lugg
+FOUW,FOUW178,FOUW178: Lime Bk north trib outlet Oak Pool,52.322539,-2.977712,Lime Brook,Lime Bk - source to conf R Lugg
+FOUW,FOUW179,FOUW179: Cabalva Bk conf Wye,52.11442267,-3.107984943,Cabalva Brook,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW180,FOUW180: Clyro Bk conf Wye,52.100946,-3.125154,Clyro Brook,Clyro Bk - source to conf R Wye
+FOUW,FOUW181,FOUW181: Llynfi outlet Llangorse Lake,51.937621,-3.273107,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW182,FOUW182: Nant Cwy inlet Llangorse Lake,51.937594,-3.265062,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW183,FOUW183: Willersley Bk conf Wye,52.115286,-3.001286,Willersley Brook,Willersley Bk - source to conf R Wye
+FOUW,FOUW184,FOUW184: Scithwen Llaneglwys,52.03823,-3.367004,Scithwen Brook,Scithwen Bk - source to conf R Wye
+FOUW,FOUW185,FOUW185: Scithwen conf Wye,52.064481,-3.294276,Scithwen Brook,Scithwen Bk - source to conf R Wye
+FOUW,FOUW186,FOUW186: Llangorse Lake jetty,51.934657,-3.269959,Llynfi,Afon Llynfi - source to conf Dulas Bk
+FOUW,FOUW187,FOUW187: Lugg conf Wye,52.032274,-2.633171,Lugg,Lugg - conf R Arrow to conf R Wye
+FOUW,FOUW188,FOUW188: Wye Canary Bridge,52.048553,-2.700241,Wye,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW189,FOUW189: Knobley Brook NE feeder Evenjobb,52.253544,-3.080096,Knobley Brook,Knobley Bk - source to conf Hindwell Bk
+FOUW,FOUW190,FOUW190: Worm Brook Much Dewchurch,51.975407,-2.754048,Worm Brook,Worm Bk - source to confl R Dore
+FOUW,FOUW191,FOUW191: AgriCollBk Equine Bridge Holme Lacy,52.016535,-2.657794,Misc,Wye - Hampton Bishop to conf Kerne Br
+FOUW,FOUW192,FOUW192: Nantmel Dulas at Gravel Road,52.270469,-3.376872,"Dulas, Nantmel",Nantmel Dulas - source to conf R Ithon
+FOUW,FOUW193,FOUW193: Nant Gwynlynn conf Wye,52.300763,-3.520657,Nant Gwynlynn,Wye - conf to conf Afon Marteg to conf Afon Elan
+FOUW,FOUW194,FOUW194: Clettwr Brook conf Wye,52.078253,-3.319057,Clettwr Brook,Clettwr Bk - source to conf R Wye
+FOUW,FOUW195,FOUW195: Newbridge Pont ar Ithon,52.205059,-3.436752,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+FOUW,FOUW196,FOUW196: Afon Cammarch conf Irfon,52.113748,-3.557539,Afon Cammarch,Afon Cammarch - source to conf R Irfon
+FOUW,FOUW197,FOUW197: Gilwern Brook conf River Arrow,52.206568,-3.021581,Gilwern Brook,Gilwern Bk - source to conf R Arrow
+FOUW,FOUW198,FOUW198: Locksters Pool Feeder conf Wye,52.110271,-3.072247,Locksters Pool Feeder,Wye - Scithwen Bk to Brewardine Br
+FOUW,FOUW201,FOUW201: Upper Norton Brook,52.30652,-3.02136,Norton Brook [Presteigne],Norton Bk - source to conf R Lugg
+FOUW,FOUW202,FOUW202: Bach Dingle,52.310465,-3.026521,Norton Brook [Presteigne],Norton Bk - source to conf R Lugg
+FOUW,FOUW203,FOUW203: Norton Brook at Boultibrooke,52.283676,-3.009492,Norton Brook [Presteigne],Norton Bk - source to conf R Lugg
+FOUW,FOUW204,FOUW204: Lugg at Rosser's Bridge,52.270928,-2.955977,Lugg,Lugg - conf Norton Bk to conf R Arrow
+FOUW,FOUW205,FOUW205: Gilwern Llanhaylow Wood,52.201986,-3.137166,Gilwern Brook,Gilwern Bk - source to conf R Arrow
+FOUW,FOUW206,FOUW206: Norton Brook nr Newton Lane,52.290791,-3.016583,Norton Brook [Presteigne],Norton Bk - source to conf R Lugg
+FOUW,FOUW207,FOUW207: Lugg at Ford St Bridge Presteigne,52.275294,-3.002885,Lugg,Lugg - conf Norton Bk to conf R Arrow
+FOUW,FOUW208,FOUW208: Hales Brook near Knowle Farm,52.2081,-3.1051,Hales Brook,Gilwern Bk - source to conf R Arrow
+FOUW,FOUW209,FOUW209: Upper Arrow near Cloggau Farm,52.1681,-3.1913,Arrow,Arrow - source to conf Gladestry Bk
+FOUW,FOUW210,FOUW210: Arrow at Newchurch,52.1486,-3.1446,Arrow,Arrow - source to conf Gladestry Bk
+FOUW,FOUW211,FOUW211: Lugg bridge on Knighton Road Presteigne,52.281088,-3.014205,Lugg,Lugg - conf Cascob Bk to conf Norton Bk
+FOUW,FOUW212,FOUW212: Pentiley Upper Arrow near Michaelchurch on Arrow,52.15525,-3.09495,Arrow,Arrow - source to conf Gladestry Bk
+FOUW,FOUW213,FOUW213: Llan-y-Felin Gladestry Brook,52.186166,-3.112834,Gladestry Brook,Gladestry Bk - source to conf R Arrow
+FOUW,FOUW214,FOUW214: Gilwern Brook near Burlingjobb,52.21841,-3.09516,Gilwern Brook,Gilwern Bk - source to conf R Arrow
+FOUW,FOUW215,FOUW215: Norton Brook at Kill Horse Lane,52.3003,-3.02114,Norton Brook [Presteigne],Norton Bk - source to conf R Lugg
+FOUW,FOUW216,FOUW216: Hindwell Brook Ditchyeld Bridge,52.240149,-3.056752,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+FOUW,FOUW217,FOUW217: Cascob Brook near Frongoch,52.28152,-3.084016,Cascob Brook,Cascob Bk - source to conf R Lugg
+FOUW,FOUW218,FOUW218: Lugg Bridge in Llangunllo,52.3347,-3.15794,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW219,FOUW219: Lugg Rock Bridge nr Lower Ackhill,52.281762,-3.038694,Lugg,Lugg - conf Cascob Bk to conf Norton Bk
+FOUW,FOUW220,FOUW220: Hindwell Brook Wegnall,52.25977,-2.994076,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+FOUW,FOUW221,FOUW221: Lugg NW from Llangunllo nr B34356 junction with Heyope Rd,52.33928,-3.16738,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW222,FOUW222: Knobley Brook Bridge Evanjobb-Kinerton Rd adjacent Mill Barn entrance,52.254865,-3.084545,Knobley Brook,Knobley Bk - source to conf Hindwell Bk
+FOUW,FOUW224,FOUW224: Gladestry Brook at Cwmynace,52.1772,-3.1607,Gladestry Brook,Gladestry Bk - source to conf R Arrow
+FOUW,FOUW225,FOUW225: Hindwell Brook at Combe,52.26613,-2.957386,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+FOUW,FOUW226,FOUW226: Ystol Bach Brook Haines Mill (Summergil Brook),52.2365,-3.16809,Ystol Bach Brook,Hindwell Bk - source to conf Knobley Bk
+FOUW,FOUW227,FOUW227: Summergil Brook footbridge near Downtown Farm,52.23946,-3.12592,Summergil Brook,Hindwell Bk - source to conf Knobley Bk
+FOUW,FOUW228,FOUW228: Knobley Brook Burfa Bog,52.24029,-3.05653,Knobley Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+FOUW,FOUW229,FOUW229: Broadhurst Bridge Hindwell Brook,52.251172,-3.022309,Hindwell Brook,Hindwell Bk - conf Knobley Bk to conf R Lugg
+FOUW,FOUW230,FOUW230: Brook near Stapleton Castle,52.28294,-2.98712,Misc,Lugg - conf Norton Bk to conf R Arrow
+FOUW,FOUW231,FOUW231: Lugg Upper Weston Bridge,52.32768,-3.15243,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW232,FOUW232: Lugg Dolly Cottage Bridge,52.319,-3.13247,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW233,FOUW233: Gladestry Brook at Gladestry Bridge,52.1882,-3.126,Gladestry Brook,Gladestry Bk - source to conf R Arrow
+FOUW,FOUW234,FOUW234: Lugg Foot-bridge near Dolley Farm,52.28212,-3.05022,Lugg,Lugg - conf Cascob Bk to conf Norton Bk
+FOUW,FOUW235,FOUW235: Lugg Bridge Upper Kinsham,52.276075,-2.934879,Lugg,Lugg - conf Norton Bk to conf R Arrow
+FOUW,FOUW236,FOUW236: Bleddfa tributary near Dol Luggan,52.3035,-3.1505,Bleddfa,Bleddfa Bk - source to conf R Lugg
+FOUW,FOUW237,FOUW237: Bleddfa tributary near Tan y Coed,52.305021,-3.120172,Bleddfa,Bleddfa Bk - source to conf R Lugg
+FOUW,FOUW238,FOUW238: Lugg Bridge A448 near Monaughty,52.306692,-3.119819,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW240,FOUW240: Lugg at Old Vicarage Llangunllo,52.333751,-3.155213,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW241,FOUW241: Dulas Brook at Cefnmachllys,52.011333,-3.350837,"Dulas, Talgarth",Dulas Bk - source to conf Afon Llynfi
+FOUW,FOUW242,FOUW242: Dulas Brook at Felinfach,51.989799,-3.325258,"Dulas, Talgarth",Dulas Bk - source to conf Afon Llynfi
+FOUW,FOUW243,FOUW243: Lugg at Whitton Bridge,52.295831,-3.074228,Lugg,Lugg - conf Bleddfa Bk to conf Cascob Bk
+FOUW,FOUW244,FOUW244: Arrow at Mahollam Bridge,52.182231,-3.064524,Arrow,Arrow - source to conf Gladestry Bk
+FOUW,FOUW245,FOUW245: Lugg at Llugwy Farm,52.348925,-3.198689,Lugg,Lugg Bk - source to conf Bleddfa Bk
+FOUW,FOUW246,FOUW246: Camddwr at Abercamddwr Bridge,52.32289,-3.312985,tbc,Camddwr Bk - source to conf R Ithon
+FOUW,FOUW247,FOUW247: Edw Hendre Bridge,52.114827,-3.33814,tbc,Edw - conf Clas Bk to conf R Wye
+FOUW,FOUW248,FOUW248: Edw conf Wye,52.112967,-3.349952,tbc,Edw - conf Clas Bk to conf R Wye
+FOUW,FOUW250,FOUW250: Clas Brook,52.15795,-3.280223,tbc,Clas Bk - source to conf R Edw
+FOUW,FOUW251,FOUW251: Lugg nr Middlemoor,52.2732397,-2.991750237,Lugg,Lugg - conf Norton Bk to conf R Arrow
+FOUW,FOUW252,FOUW252: Honddu at Tredunno Bridge,51.90644635,-3.032199816,Honddu,Afon Honddu - source to conf R Monnow
+FOUW,FOUW253,FOUW253: Ennig Penbont Road,51.993141,-3.2309378,Ennig,Ennig - source to conf Afon Llynfi
+FOUW,FOUW254,FOUW254: Yazor Magnis 1,52.08420698,-2.819788722,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW255,FOUW255: Yazor Magnis 2 ,52.07930466,-2.804011774,Yazor,Yazor Bk - source to conf R Wye
+FOUW,FOUW256,FOUW256: Fields Mill ,52.062083,-2.842431918,Misc,Wye - Bredwardine Br to Hampton Bishop
+FOUW,FOUW257,FOUW257: Marteg at Gilfach,52.3340994,-3.5237876,Marteg Brook,Afon Marteg - source to conf R Wye
+WSA,WSA001,Dulas Hay on Wye WSA001,52.078148,-3.125096,"Dulas, Hay on Wye",Hay Dulas Bk - source to conf R Wye
+WSA,WSA002,"Wye, Hereford Rowing Club WSA002",52.051616,-2.721958,Wye,Wye - Bredwardine Br to Hampton Bishop
+WSA,WSA003,"Wye, Glasbury WSA003",52.043349,-3.201024,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA004,"Wye, Carrots WSA004",52.039481,-2.657129,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA006,"Wye, Riverside Park Ross above STW WSA006",51.914401,-2.589487,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA009,"Wye, The Hom Ross (below STW) WSA009",51.900758,-2.619831,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA011,"Wye, Kerne Bridge Canoe Launch WSA011",51.865414,-2.608062,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA012,"Wye, Monmouth above STW WSA012",51.803636,-2.705316,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA013,"Wye, Monmouth Rowing Club WSA013",51.813282,-2.707638,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA014,"Wye, Redbrook, Opp Village Shop (above STW) WSA014",51.784975,-2.673263,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA020,"Wye, WAA Stretch Hay on Wye WSA020",52.079999,-3.124872,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA022,"Wye, Monmouth below STW WSA022",51.801304,-2.702874,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA024,"Wye, Bigsweir Station WSA024",51.742201,-2.670465,Wye,[Brockweir area]
+WSA,WSA025,"Wye, Ballingham WSA025",51.992506,-2.634643,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA027,"Wye, Llanthomas Fishery Llowes WSA027",52.068606,-3.168689,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA028,"Wye, Lydbrook Riverside Launch WSA028",51.850477,-2.588262,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA029,"Wye, Redbrook (below STW) WSA029",51.782217,-2.674515,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA030,"Worm, 3 The Tram WSA030",51.996876,-2.774172,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA031,"Worm, 2 Goughs Bridge WSA031",51.974039,-2.812844,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA032,"Worm,  1 Sawmills Footbridge WSA032",51.952229,-2.872661,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA033,"West Brook, Middlewood Bridge, Clock Mills WSA033",52.096037,-3.041021,West Brook,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA038,"Pentaloe Brook, Mordiford Below STW WSA038",52.032449,-2.621516,Pentaloe Brook,Pentaloe Bk - source to conf R Wye
+WSA,WSA039,"Pentaloe Brook, Mordiford Above STW WSA039",52.032721,-2.618342,Pentaloe Brook,Pentaloe Bk - source to conf R Wye
+WSA,WSA040,"Monnow, Lower Ponthendre WSA040",51.947113,-2.979093,Monnow,Monnow - conf Escley Bk to conf Afon Honddu
+WSA,WSA041,"Olchen Brook, Lower Ponthendre WSA041",51.947529,-2.979479,Olchon Brook,Monnow - conf Escley Bk to conf Afon Honddu
+WSA,WSA042,"Monnow, Monnow Bridge WSA042",51.808966,-2.719802,Monnow,Monnow - conf Afon Honddu to conf R Wye
+WSA,WSA044,"Lugg, Mordiford Bridge WSA044",52.033723,-2.628346,Lugg,Lugg - conf R Arrow to conf R Wye
+WSA,WSA045,"Lugg, Lyepole Bridge WSA045",52.283772,-2.883562,Lugg,Lugg - conf Norton Bk to conf R Arrow
+WSA,WSA050,"Llynfi, Above Dulas Talgarth WSA050",52.000418,-3.240793,Llynfi,Afon Llynfi - source to conf Dulas Bk
+WSA,WSA052,"Llynfi, Bridge, Llangorse Car Park WSA052",51.936977,-3.273141,Llynfi,Afon Llynfi - source to conf Dulas Bk
+WSA,WSA053,"Llynfi, Llynfi Bridge Llangorse WSA053",51.944339,-3.270232,Llynfi,Afon Llynfi - source to conf Dulas Bk
+WSA,WSA054,"Llynfi, Pipton Bridge WSA054",52.034183,-3.214329,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+WSA,WSA055,"Wye, Llowes Court Stream (Mouth) WSA055",52.070616,-3.170338,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA058,"Ithon, Crossgates Bridge WSA058",52.26844,-3.300805,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+WSA,WSA059,"Ithon, Disserth Bridge WSA059",52.216196,-3.414305,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+WSA,WSA061,"Ithon, Llanbister WSA061",52.345627,-3.319311,Ithon,Ithon - conf Gwenlas Bk to conf Camddwr Bk
+WSA,WSA067,"Felindre Brook, Road Bridge Felindre WSA067",52.021631,-3.1873,Felindre Brook,Afon Llynfi - conf Dulas Bk to conf R Wye
+WSA,WSA068,"Ennig, Allottment Bridge Talgarth WSA068",52.001794,-3.237702,Ennig,Ennig - source to conf Afon Llynfi
+WSA,WSA071,"Dulas, at Ewyas Harold WSA071",51.952678,-2.892941,"Dulas, Ewyas Harold",Dulas Bk - source to conf R Dore
+WSA,WSA074,"Dore, The Bage WSA074",52.082099,-3.019426,Dore,Dore - source to conf R Monmow
+WSA,WSA076,"Dore, Vowchurch WSA076",52.022706,-2.931982,Dore,Dore - source to conf R Monmow
+WSA,WSA077,"Dore, Elm Bridge (Ewyas Harold) WSA077",51.952257,-2.877054,Dore,Dore - source to conf R Monmow
+WSA,WSA078,"Dulas, at Pontrilas WSA078",51.943617,-2.88121,"Dulas, Ewyas Harold",Dulas Bk - source to conf R Dore
+WSA,WSA079,"Dore, Dore Bridge (Abbey Dore) WSA079",51.973075,-2.893499,Dore,Dore - source to conf R Monmow
+WSA,WSA081,"Dore, Dorstone (B4348) WSA081",52.071385,-2.998763,Dore,Dore - source to conf R Monmow
+WSA,WSA088,"Wye, Red Lion, The Scar WSA088",52.092059,-2.943563,Wye,Wye - Bredwardine Br to Hampton Bishop
+WSA,WSA089,"Wye, Red Lion, Villets Run WSA089",52.109241,-2.997889,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA091,"Dulas Talgarth, above Tryffrwd confluence WSA091",51.996987,-3.283895,"Dulas, Talgarth",Dulas Bk - source to conf Afon Llynfi
+WSA,WSA092,"Ennig, Arosfa WSA092",51.985597,-3.2049,Ennig,Ennig - source to conf Afon Llynfi
+WSA,WSA093,"Ennig, Middle Genfford WSA093",51.974898,-3.208967,Ennig,Ennig - source to conf Afon Llynfi
+WSA,WSA095,"Dore, Peterchurch 1 (Hinton Bridge) WSA095",52.045456,-2.96231,Dore,Dore - source to conf R Monmow
+WSA,WSA096,"Pont y Weston Brook, 1 Oaklands Bridge WSA096",52.069956,-2.998683,Pont y Weston Brook,Dore - source to conf R Monmow
+WSA,WSA097,"Pont y Weston Brook, 4 Bridge Cottage WSA097",52.069849,-3.004532,Pont y Weston Brook,Dore - source to conf R Monmow
+WSA,WSA098,"Luke Brook, Brelston Nr Marstow WSA098",51.873378,-2.636753,Luke Brook,Garren Bk - conf Gamber Bk to conf R Wye
+WSA,WSA100,"Dulas Talgarth, above Llynfi confluence WSA100",52.002106,-3.245102,"Dulas, Talgarth",Dulas Bk - source to conf Afon Llynfi
+WSA,WSA101,"Gamber, G5A Audits Bridge Trevase Farm WSA101",51.928177,-2.720646,Gamber,Gamber Bk - source to conf Garren Bk
+WSA,WSA102,"Garren, Garren 2 Langstone Court WSA102",51.895483,-2.676962,Garren,Garren Bk - conf Gamber Bk to conf R Wye
+WSA,WSA103,"Garren, Garren 4 Llangunnock Bridge WSA103",51.90052,-2.71692,Garren,Garren Bk - source to conf Gamber Bk
+WSA,WSA104,"Garren, Garren 6, Orcop WSA104",51.933854,-2.765257,Garren,Garren Bk - source to conf Gamber Bk
+WSA,WSA105,"Lugg, Lugg Green Rd, Kingsland WSA105",52.254484,-2.809011,Lugg,Lugg - conf Norton Bk to conf R Arrow
+WSA,WSA106,"Garren, Orcop 2 Drains Brookland Fm WSA106",51.93292,-2.781156,Garren,Garren Bk - source to conf Gamber Bk
+WSA,WSA107,"Dore, Peterchurch - Trenant Brook 2 WSA107",52.034483,-2.953261,Dore,Dore - source to conf R Monmow
+WSA,WSA108,"Pont y Weston Brook, 5 (Llanarch Ford) WSA108",52.068737,-3.022375,Pont y Weston Brook,Dore - source to conf R Monmow
+WSA,WSA109,"Dore, Pontrilas WSA109",51.942879,-2.88211,Dore,Dore - source to conf R Monmow
+WSA,WSA110,"Llynfi, Sewage Works Talgarth WSA110",52.00467,-3.238639,Llynfi,Afon Llynfi - conf Dulas Bk to conf R Wye
+WSA,WSA111,"Gamber, Tretire WSA111",51.912415,-2.693342,Gamber,Gamber Bk - source to conf Garren Bk
+WSA,WSA112,"Tryffrwd, above Dulas confluence WSA112",52.00083,-3.273333,Tryffrwd,Triffrwd - source to Dulas
+WSA,WSA114,"Dore, Peterchurch 3 (Fairfield Bridge) WSA114",52.038101,-2.953428,Dore,Dore - source to conf R Monmow
+WSA,WSA115,"Dore, Peterchurch 4 (Below STW) WSA115",52.035654,-2.951008,Dore,Dore - source to conf R Monmow
+WSA,WSA119,"Wye, Rhayader WSA119",52.296652,-3.503383,Wye,Wye - conf to conf Afon Marteg to conf Afon Elan
+WSA,WSA120,"Lugg, Aymestry WSA120",52.284216,-2.844071,Lugg,Lugg - conf Norton Bk to conf R Arrow
+WSA,WSA122,"Trothy, Mitchel Troy Recycling Site WSA122",51.799024,-2.710872,Trothy,Trothy - conf Llymon Bk to conf R Wye
+WSA,WSA123,"Trothy, Llanfihangel Ystum Llewern WSA123",51.824352,-2.826029,Trothy,Trothy - conf Llanymynach Bk to conf Llymon Bk
+WSA,WSA124,"Daff y Nant brook, Churchyard, Whitchurch WSA124",51.854365,-2.646226,Daff y Nant brook,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA125,"Garren, Garren 1, Pack Saddle Bridge, Marstow WSA125",51.869174,-2.641592,Garren,Garren Bk - conf Gamber Bk to conf R Wye
+WSA,WSA128,"Ithon, Llanbadarn Bridge WSA128",52.389704,-3.327836,Ithon,Ithon - conf Gwenlas Bk to conf Camddwr Bk
+WSA,WSA129,"Worm, Below Wormlow STW WSA129",51.990669,-2.775605,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA130,"Llynfi,Trefecca, Lord Upstream WSA130",51.982065,-3.253091,Llynfi,Afon Llynfi - source to conf Dulas Bk
+WSA,WSA131,"Llynfi, Trefecca, Lord Downstream WSA131",51.983479,-3.251959,Llynfi,Afon Llynfi - source to conf Dulas Bk
+WSA,WSA132,"Wye, Wye Above Hereford STW WSA132",52.041909,-2.699615,Wye,Wye - Bredwardine Br to Hampton Bishop
+WSA,WSA133,"Wye, Below Hereford STW WSA133",52.049118,-2.698122,Wye,Wye - Bredwardine Br to Hampton Bishop
+WSA,WSA134,"Dore, Poston Mill WSA134",52.028014,-2.94063,Dore,Dore - source to conf R Monmow
+WSA,WSA135,"Wye, Churchyard, Whitchurch (River) WSA135",51.854212,-2.645368,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA136,"Gamber, G5 Audits Bridge WSA136",51.928074,-2.721003,Gamber,Gamber Bk - source to conf Garren Bk
+WSA,WSA137,"Wye, Lydbrook Sewage Works WSA137",51.85008,-2.607544,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA138,"Dyfnant Brook, Newbridge on Wye WSA138",52.213784,-3.444189,Dyfnant Brook,Wye - conf Afon Elan to conf R Ithon
+WSA,WSA139,"Llanerch Brook, Panbrook Bridge WSA139",51.89243,-2.693723,Llanerch Brook,Garren Bk - conf Gamber Bk to conf R Wye
+WSA,WSA140,"Pont y Weston Brook, 2 Church Bridge WSA140",52.069769,-3.002316,Pont y Weston Brook,Dore - source to conf R Monmow
+WSA,WSA142,"Worm, below Kilpeck STW WSA142",51.974049,-2.814753,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA143,"Worm, Wormbridge WSA143",51.970443,-2.8381,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA144,"Wye, Warren Hay WSA144",52.074369,-3.135547,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA145,"Ennig, A479 Bridge WSA145",51.996965,-3.234203,Ennig,Ennig - source to conf Afon Llynfi
+WSA,WSA146,"Ennig, Bell St Bridge WSA146",51.994072,-3.231187,Ennig,Ennig - source to conf Afon Llynfi
+WSA,WSA147,"Ithon, Disserth Bank Wood WSA147",52.213367,-3.413835,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+WSA,WSA149,"Wye, Fawley WSA149",51.95473,-2.614754,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA150,"Wye, Fownhope WSA150",52.001943,-2.620249,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA151,"Wye, Hoarwithy Bridge WSA151",51.961968,-2.65794,Wye,Wye - Hampton Bishop to conf Kerne Br
+WSA,WSA152,"Garren, Trib below great Ynys Farm WSA152",51.936192,-2.76754,Garren,Garren Bk - source to conf Gamber Bk
+WSA,WSA153,"Ithon, Llandrindod Y Ddol WSA153",52.242661,-3.391496,Ithon,Ithon - conf Camddwr Bk to conf R Wye
+WSA,WSA154,"Wye, Boughrood Bridge WSA154",52.037166,-3.268077,Wye,Wye - Scithwen Bk to Brewardine Br
+WSA,WSA155,"Wye, Wyesham Beat Hut WSA155",51.79915,-2.694456,Wye,Wye - conf Walford Bk to Bigsweir Br
+WSA,WSA156,"Worm, Jury Brook WSA156",51.978998,-2.852343,Worm Brook,Worm Bk - source to confl R Dore
+WSA,WSA157,"Worm, Knolton Brook WSA157",51.97383,-2.81243,Worm Brook,Worm Bk - source to confl R Dore
