@@ -2,6 +2,5 @@
 
 ## Contents 
 
-Some files!
-- Folder 1
-- Folder 2
+- Preprocessing Python Script
+- Original data 
