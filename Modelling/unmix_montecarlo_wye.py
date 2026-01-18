@@ -11,6 +11,8 @@ from matplotlib.colors import LogNorm
 import matplotlib.colors as mcolors
 from matplotlib.ticker import FormatStrFormatter
 import numpy as np
+from osgeo import gdal
+import funmixer.flow_acc_cfuncs as cf
 
 """ Sorting data before applying funmixer unmixing """
 
@@ -212,17 +214,6 @@ This script:
 - Saves misfit and uncertainty to CSV
 - Visualises upstream concentration and uncertainty maps
 """
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import rasterio
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-from matplotlib.colors import LogNorm
-from matplotlib.ticker import FormatStrFormatter
-import funmixer
-
 
 def run_funmixer_montecarlo(
     unmix_csv: str,
@@ -506,19 +497,6 @@ This script:
 - Visualises upstream concentration and uncertainty maps
   with the river network included in the figure
 """
-
-import os
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import rasterio
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-from matplotlib.colors import LogNorm
-from osgeo import gdal
-
-import funmixer
-import funmixer.flow_acc_cfuncs as cf
 
 # ---------------------------------------------------------------------
 # D8 accumulator (unchanged logic, simplified placement)
