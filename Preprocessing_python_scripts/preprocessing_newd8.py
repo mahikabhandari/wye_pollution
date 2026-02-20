@@ -198,12 +198,44 @@ plt.show()
 
 print(samples["Site ID"].unique()) 
 
+
+scale = 10  # metres
+
+nudges = {
+    "FOUW017": np.array([+5, -2]),
+    "FOUW010": np.array([-1, +1]),
+
+    "WSA101": np.array([+1, +1]),
+    "WSA136": np.array([-1, -1]),
+
+    "FOUW034": np.array([+1, 0]),
+    "FOUW038": np.array([-1, 0]),
+
+    "WSA124": np.array([-1, +1]),
+    "WSA135": np.array([+1, -1])
+}
+
+# scale all nudges
+for k in nudges:
+    nudges[k] = nudges[k] * scale
+
 snap_to_drainage(
     flow_dirs_filename="welsh_d8_fix_bounds.tif",
     sample_sites_filename="/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv",
     drainage_area_threshold=1000000,  # 1 km^2
     plot=True,
     save=True,
+    nudges=nudges
+    # nudges = {
+    # "FOUW017": np.array([+1, -1]),   # east, south
+    # "FOUW010": np.array([-1, +1]),    # west, north
+    # "WSA101": np.array([+1, +1]),   # east, north
+    # "WSA136": np.array([-1, -1]),    # west, south
+    # "FOUW034": np.array([+1, 0]),   # east
+    # "FOUW038": np.array([-1, 0]),    # west
+    # "WSA124": np.array([-1, +1]),   # west, north
+    # "WSA135": np.array([+1, -1])    # east, south
+    # },
 )
 
 # Once this is done, we can load in the snapped sample sites and build the sample network again.
