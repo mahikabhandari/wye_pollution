@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
-
-# Step 1 
-## Merged two excel sheets 
-
-import pandas as pd
 import os
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import rasterio
+from pyproj import Transformer
+from funmixer import (
+    check_d8,
+    get_sample_graph,
+    plot_network,
+    set_d8_boundaries_to_zero,
+    snap_to_drainage,
+)
+
+# Step 1
+## Merged two excel sheets
 
 # Load the two CSV files into dataframes
 phosphate_df = pd.read_csv("Data_PP/Original/Phosphate_date.csv")
@@ -24,9 +34,8 @@ merged_df.to_csv("Data_PP/Merged_Phosphate_Sites.csv", index=False)
 
 print("Merge complete. Saved as 'Merged_Phosphate_Sites.csv'")
 
-# Step 2 
+# Step 2
 # Add x and y coordinates
-from pyproj import Transformer
 
 # --- Step 1: Read the merged CSV ---
 merged_df = pd.read_csv("Data_PP/Merged_Phosphate_Sites.csv")
@@ -53,8 +62,8 @@ merged_df.to_csv("Data_PP/Merged_Phosphate_Sites_XY.csv", index=False)
 
 print("✅ Added x and y coordinates (British National Grid) and saved as 'Merged_Phosphate_Sites_XY.csv'")
 
-# Step 3 
-## Filter sites 
+# Step 3
+## Filter sites
 
 # --- Step 1: Read the merged CSV ---
 merged_df = pd.read_csv("Data_PP/Merged_Phosphate_Sites_XY.csv")
@@ -130,16 +139,6 @@ This script demonstrates the preprocessing capabilities of funmixer. Specificall
 3. Snapping sample sites to the nearest drainage network
 """
 
-from funmixer import (
-    check_d8,
-    get_sample_graph,
-    plot_network,
-    set_d8_boundaries_to_zero,
-    snap_to_drainage,
-)
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 
 ### Checking D8 flow directions and fixing boundary conditions ###
 # The check_d8 function checks two things.
@@ -158,12 +157,11 @@ check_d8("Data_PP/Original/welsh_d8.nc")
 # We can fix the boundary conditions using the set_d8_boundaries_to_zero function which sets all boundary cells to 0,
 # writing the corrected raster to a new file.
 set_d8_boundaries_to_zero("Data_PP/Original/welsh_d8.nc")
-#set_d8_boundaries_to_zero("welsh_d8.nc")
+# set_d8_boundaries_to_zero("welsh_d8.nc")
 
 # Now we can check the corrected raster.
 check_d8("welsh_d8_fix_bounds.tif")
 
-import rasterio
 
 raster_path = "welsh_d8_fix_bounds.tif"
 
@@ -199,7 +197,7 @@ sample_network, labels = get_sample_graph(
     sample_data_filename="Data_PP/Unique_SiteID_XY.csv",
 )
 
-#plt.figure(figsize=(15, 10))  # Visualise network
+# plt.figure(figsize=(15, 10))  # Visualise network
 plt.title("Disconnected Network Due to Misaligned Samples")
 plot_network(sample_network)
 plt.show()
@@ -244,7 +242,7 @@ plt.imshow(labels)
 plt.axis('off')
 plt.show()
 
-#plt.figure(figsize=(15, 10))  # Visualise network
+# plt.figure(figsize=(15, 10))  # Visualise network
 plt.title("Correctly Connected Network with Snapped Samples")
 plot_network(sample_network)
 plt.show()
@@ -277,8 +275,8 @@ merged.to_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv", index=False)
 print("✅ Saved combined CSV with original and snapped coordinates as 'Unique_SiteID_XY_snapped_original.csv'")
 
 
-# Step 5 
-## Add watercourse information to merged dataset with orginal and snapped x and y 
+# Step 5
+## Add watercourse information to merged dataset with orginal and snapped x and y
 
 # --- Load both datasets ---
 snapped = pd.read_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv")
@@ -320,5 +318,3 @@ final.to_csv("Data_PP/Output/Snapped_Watercourse.csv", index=False)
 
 print("✅ Saved merged site-level dataset as 'Snapped_Watercourse.csv'")
 print(f"Rows in final file: {len(final)} (one per Site ID)")
-
-
