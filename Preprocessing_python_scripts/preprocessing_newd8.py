@@ -258,6 +258,7 @@ plt.show()
 # plt.figure(figsize=(15, 10))  # Visualise network
 plt.title("Correctly Connected Network with Snapped Samples")
 plot_network(sample_network)
+
 plt.show()
 
 # Load original and snapped coordinates ---
