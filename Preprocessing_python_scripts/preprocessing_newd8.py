@@ -4,10 +4,11 @@
 ## Merged two excel sheets 
 
 import pandas as pd
+import os
 
 # Load the two CSV files into dataframes
-phosphate_df = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Original/Phosphate_date.csv")
-sites_df = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Original/Sites.csv")
+phosphate_df = pd.read_csv("Data_PP/Original/Phosphate_date.csv")
+sites_df = pd.read_csv("Data_PP/Original/Sites.csv")
 
 # Merge the dataframes on 'Site ID' column
 merged_df = pd.merge(phosphate_df, sites_df, on='Site ID', how='left')
@@ -19,7 +20,7 @@ merged_df = merged_df[[
 ]]
 
 # Save the merged dataframe to a new CSV file
-merged_df.to_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Merged_Phosphate_Sites.csv", index=False)
+merged_df.to_csv("Data_PP/Merged_Phosphate_Sites.csv", index=False)
 
 print("Merge complete. Saved as 'Merged_Phosphate_Sites.csv'")
 
@@ -28,7 +29,7 @@ print("Merge complete. Saved as 'Merged_Phosphate_Sites.csv'")
 from pyproj import Transformer
 
 # --- Step 1: Read the merged CSV ---
-merged_df = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Merged_Phosphate_Sites.csv")
+merged_df = pd.read_csv("Data_PP/Merged_Phosphate_Sites.csv")
 
 # --- Step 2: Ensure column names are clean (optional but safe) ---
 merged_df.columns = merged_df.columns.str.strip()
@@ -48,7 +49,7 @@ merged_df[['x', 'y']] = merged_df.apply(
 )
 
 # --- Step 5: Save the new CSV ---
-merged_df.to_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Merged_Phosphate_Sites_XY.csv", index=False)
+merged_df.to_csv("Data_PP/Merged_Phosphate_Sites_XY.csv", index=False)
 
 print("✅ Added x and y coordinates (British National Grid) and saved as 'Merged_Phosphate_Sites_XY.csv'")
 
@@ -56,7 +57,7 @@ print("✅ Added x and y coordinates (British National Grid) and saved as 'Merge
 ## Filter sites 
 
 # --- Step 1: Read the merged CSV ---
-merged_df = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Merged_Phosphate_Sites_XY.csv")
+merged_df = pd.read_csv("Data_PP/Merged_Phosphate_Sites_XY.csv")
 
 # --- Step 2: Clean column names (optional but safe) ---
 merged_df.columns = merged_df.columns.str.strip()
@@ -91,7 +92,7 @@ sites_with_50_samples = site_counts[site_counts >= 50].index
 filtered_df = filtered_df[filtered_df['Site ID'].isin(sites_with_50_samples)]
 
 # --- Step 8: Save the filtered dataframe to a new CSV ---
-output_path = "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
+output_path = "Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
 filtered_df.to_csv(output_path, index=False)
 
 # --- Step 9: Print summary info ---
@@ -102,7 +103,7 @@ print(f"📊 Rows after filtering: {len(filtered_df)}")
 print(f"📍 Unique sites after filtering: {unique_sites}")
 
 # Load your original CSV
-input_csv = "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
+input_csv = "Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
 df = pd.read_csv(input_csv)
 
 # Select only the desired columns
@@ -115,7 +116,7 @@ new_df['Site ID'] = new_df['Site ID'].astype(str)
 unique_df = new_df.drop_duplicates(subset='Site ID', keep='first')
 
 # Save to a new CSV
-output_csv = "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv"
+output_csv = "Data_PP/Unique_SiteID_XY.csv"
 unique_df.to_csv(output_csv, index=False)
 
 print(f"New CSV saved as {output_csv} with {len(unique_df)} unique rows.")
@@ -147,15 +148,17 @@ import pandas as pd
 # The example file "d8_bad_bounds.tif" has correct values but incorrect boundary conditions.
 # We can test this using the check_d8 function.
 
-import os
-os.chdir("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP")
 
-check_d8("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Original/welsh_d8.nc")
+# Check if "Data_PP/Original/welsh_d8.nc" exists as a file and if not print a message saying it has to be downloaded manually
+if not os.path.exists("Data_PP/Original/welsh_d8.nc"):
+    print("File 'Data_PP/Original/welsh_d8.nc' not found. Please download it first (too big for repository!)")
+
+check_d8("Data_PP/Original/welsh_d8.nc")
 
 # We can fix the boundary conditions using the set_d8_boundaries_to_zero function which sets all boundary cells to 0,
 # writing the corrected raster to a new file.
-set_d8_boundaries_to_zero("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Original/welsh_d8.nc")
-#set_d8_boundaries_to_zero("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/welsh_d8.nc")
+set_d8_boundaries_to_zero("Data_PP/Original/welsh_d8.nc")
+#set_d8_boundaries_to_zero("welsh_d8.nc")
 
 # Now we can check the corrected raster.
 check_d8("welsh_d8_fix_bounds.tif")
@@ -184,7 +187,7 @@ with rasterio.open(raster_path) as src:
 # the sample sites to the nearest drainage network using the snap_to_drainage function.
 
 # Load in real samples
-samples = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv")
+samples = pd.read_csv("Data_PP/Unique_SiteID_XY.csv")
 print(samples.columns)
 sample_x, sample_y = samples["x"], samples["y"]
 
@@ -193,7 +196,7 @@ sample_x, sample_y = samples["x"], samples["y"]
 # Load sample network
 sample_network, labels = get_sample_graph(
     flowdirs_filename="welsh_d8_fix_bounds.tif",
-    sample_data_filename="/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv",
+    sample_data_filename="Data_PP/Unique_SiteID_XY.csv",
 )
 
 #plt.figure(figsize=(15, 10))  # Visualise network
@@ -215,7 +218,7 @@ print(samples["Site ID"].unique())
 
 snap_to_drainage(
     flow_dirs_filename="welsh_d8_fix_bounds.tif",
-    sample_sites_filename="/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv",
+    sample_sites_filename="Data_PP/Unique_SiteID_XY.csv",
     drainage_area_threshold=1000000,  # 1 km^2
     plot=True,
     save=True,
@@ -250,7 +253,7 @@ plt.show()
 # and the samples have been snapped to the correct part of the network.
 
 # --- Step 2: Load original and snapped coordinates ---
-original = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY.csv")
+original = pd.read_csv("Data_PP/Unique_SiteID_XY.csv")
 
 # The snap_to_drainage() function should have created a new CSV.
 # Check what it's called — typically "Unique_SiteID_XY_snapped.csv"
@@ -270,7 +273,7 @@ snapped = snapped.rename(columns={
 merged = pd.merge(original, snapped[["Site ID", "snapped_x", "snapped_y"]], on="Site ID", how="left")
 
 # --- Step 4: Save the merged dataset ---
-merged.to_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY_snapped_original.csv", index=False)
+merged.to_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv", index=False)
 print("✅ Saved combined CSV with original and snapped coordinates as 'Unique_SiteID_XY_snapped_original.csv'")
 
 
@@ -278,8 +281,8 @@ print("✅ Saved combined CSV with original and snapped coordinates as 'Unique_S
 ## Add watercourse information to merged dataset with orginal and snapped x and y 
 
 # --- Load both datasets ---
-snapped = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY_snapped_original.csv")
-phosphate = pd.read_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv")
+snapped = pd.read_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv")
+phosphate = pd.read_csv("Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv")
 
 # --- Reduce phosphate data to unique site-level info ---
 # Keep only the relevant columns
@@ -309,7 +312,11 @@ final = merged[[
 ]]
 
 # --- Save result ---
-final.to_csv("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Output/Snapped_Watercourse.csv", index=False)
+# Check if the directory "Data_PP/Output" exists, if not, create it
+if not os.path.exists("Data_PP/Output"):
+    os.makedirs("Data_PP/Output")
+
+final.to_csv("Data_PP/Output/Snapped_Watercourse.csv", index=False)
 
 print("✅ Saved merged site-level dataset as 'Snapped_Watercourse.csv'")
 print(f"Rows in final file: {len(final)} (one per Site ID)")
