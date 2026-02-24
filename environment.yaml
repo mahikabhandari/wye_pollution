@@ -1,0 +1,10 @@
+name: wye-inversion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - matplotlib
+  - rasterio
+  - pyproj
+  - numpy
