@@ -249,6 +249,9 @@ sample_network, labels = get_sample_graph(
 )
 
 plt.imshow(labels)
+plt.xlabel("BNG Easting")
+plt.ylabel("BNG Northing")
+plt.title("Map of Unique Upstream Areas")
 plt.axis("off")
 plt.show()
 
