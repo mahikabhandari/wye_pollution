@@ -268,6 +268,7 @@ def run_funmixer_montecarlo(
         f"Predicted vs Observed Phosphate Concentration - {outputs_label}", fontsize=14
     )
     plt.tight_layout()
+    os.makedirs("Figures", exist_ok=True)
     plt.savefig(
         f"Figures/{outputs_label}_predicted_vs_observed.png",
         dpi=300,
@@ -396,7 +397,7 @@ def run_funmixer_montecarlo(
 # Run
 # ---------------------------------------------------------------------
 run_funmixer_montecarlo(
-    unmix_csv="Modelling/phosphate_averages.csv",
+    observations_csv="Modelling/phosphate_averages.csv",
     flowdir_file="Data_PP/Original/welsh_d8.nc",
     element_col="Phosphate_mean",
     runoff_rate_csv="Runoff/Spring_2024/runoff_spring2024_mean_by_subcatchment.csv",

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Preprocess the input citizen science phosphate data from the Wye as well as a D8 flow direction raster so that they can be used for further analysis and inverse modeling.
 
@@ -8,7 +9,6 @@ Step 4: Check D8 raster is valid for use in inverse modelling software
 Step 5: Prepare data for inverse modelling by snapping sites to D8 flow paths.
 """
 
-#!/usr/bin/env python3
 import os
 
 import matplotlib.pyplot as plt
@@ -166,7 +166,7 @@ print(f"New CSV saved as {output_csv} with {len(unique_df)} unique rows.")
 
 # Check if "Data_PP/Original/welsh_d8.nc" exists as a file and if not print a message saying it has to be downloaded manually
 if not os.path.exists("Data_PP/Original/welsh_d8.nc"):
-    print(
+    raise FileNotFoundError(
         "File 'Data_PP/Original/welsh_d8.nc' not found. Please download it first (too big for repository!)"
     )
 
