@@ -244,6 +244,7 @@ plt.show()
 #plt.figure(figsize=(15, 10))  # Visualise network
 plt.title("Correctly Connected Network with Snapped Samples")
 plot_network(sample_network)
+
 plt.show()
 
 # The network should now be connected properly, but should be checked to ensure that the snapping was successful
@@ -315,3 +316,83 @@ print("✅ Saved merged site-level dataset as 'Snapped_Watercourse.csv'")
 print(f"Rows in final file: {len(final)} (one per Site ID)")
 
 
+
+import pandas as pd
+
+# --- Load filtered observation-level dataset (contains Date) ---
+filtered = pd.read_csv(
+    "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
+)
+
+# --- Load snapped site-level coordinates ---
+snapped = pd.read_csv(
+    "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Unique_SiteID_XY_snapped_original.csv"
+)
+
+# Keep only needed snapped columns
+snapped = snapped[[
+    "Site ID",
+    "snapped_x",
+    "snapped_y"
+]]
+
+# --- Merge snapped coordinates into full observation dataset ---
+final = pd.merge(
+    filtered,
+    snapped,
+    on="Site ID",
+    how="left"
+)
+
+# --- Save final dataset ---
+output_path = "/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Output/Final_With_Dates_Snapped.csv"
+final.to_csv(output_path, index=False)
+
+print("✅ Final dataset saved with Date + snapped coordinates.")
+print(f"Rows: {len(final)}")
+print(f"Unique sites: {final['Site ID'].nunique()}")
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+import networkx as nx
+
+G = sample_network
+
+# Ensure directed graph
+if not nx.is_directed(G):
+    G = G.to_directed()
+
+# Choose outlet (node with no downstream)
+outlets = [n for n, d in G.out_degree() if d == 0]
+root = outlets[0]
+
+# Create tree layout
+# pos = nx.drawing.nx_agraph.graphviz_layout(G, prog="dot")
+pos = nx.nx_agraph.graphviz_layout(
+    G,
+    prog="dot",
+    args="-Granksep=2.5 -Gnodesep=1.8 -Goverlap=false"
+)
+
+plt.figure(figsize=(12, 12))
+nx.draw(
+    G,
+    pos,
+    with_labels=True,
+    node_size=1000,
+    node_color="white",
+    edgecolors="black",
+    arrows=True,
+    font_size=7
+)
+
+plt.title("Correctly Connected Network with Snapped Sites", fontsize=16)
+plt.axis("off")
+plt.savefig("/Users/mahikabhandari/Desktop/Earth Science Year 4/MSci Project/Analysis/Data_PP/Figures/Tree_Diagram_Sites.png",
+            dpi=600,                 # very high resolution
+            bbox_inches="tight")
