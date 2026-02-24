@@ -1,5 +1,5 @@
 """
-This script preprocesses the input citizen science phosphate data from the Wye as well as a D8 flow direction raster so that they can be used for further analysis and inverse modeling.
+Preprocess the input citizen science phosphate data from the Wye as well as a D8 flow direction raster so that they can be used for further analysis and inverse modeling.
 
 Step 1: Merge the phosphate data with site information.
 Step 2: Add x and y coordinates in BNG.
@@ -14,7 +14,6 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 import rasterio
-from pyproj import Transformer
 from funmixer import (
     check_d8,
     get_sample_graph,
@@ -22,6 +21,8 @@ from funmixer import (
     set_d8_boundaries_to_zero,
     snap_to_drainage,
 )
+from pyproj import Transformer
+
 ###########################################################
 # Step 1: Merge the phosphate data with site information.
 ###########################################################
@@ -31,13 +32,26 @@ phosphate_df = pd.read_csv("Data_PP/Original/Phosphate_date.csv")
 sites_df = pd.read_csv("Data_PP/Original/Sites.csv")
 
 # Merge the dataframes on 'Site ID' column
-merged_df = pd.merge(phosphate_df, sites_df, on='Site ID', how='left')
+merged_df = pd.merge(phosphate_df, sites_df, on="Site ID", how="left")
 
 # Reorder columns to match the desired order
-merged_df = merged_df[[
-    'Sample ID', 'Date', 'Time', 'Phosphate (Hanna)', 'Site ID', 'Phosphate st', 'Hanna LR phos', 
-    'Org', 'Name in EC', 'Latitude', 'Longitude', 'Watercourse (if known)', 'Catchment (or "tbc")'
-]]
+merged_df = merged_df[
+    [
+        "Sample ID",
+        "Date",
+        "Time",
+        "Phosphate (Hanna)",
+        "Site ID",
+        "Phosphate st",
+        "Hanna LR phos",
+        "Org",
+        "Name in EC",
+        "Latitude",
+        "Longitude",
+        "Watercourse (if known)",
+        'Catchment (or "tbc")',
+    ]
+]
 
 # Save the merged dataframe to a new CSV file
 merged_df.to_csv("Data_PP/Merged_Phosphate_Sites.csv", index=False)
@@ -58,21 +72,26 @@ merged_df.columns = merged_df.columns.str.strip()
 # Define transformer for WGS84 -> British National Grid ---
 transformer = Transformer.from_crs("EPSG:4326", "EPSG:27700", always_xy=True)
 
+
 # Apply transformation to all rows
 def latlon_to_xy(lon, lat):
+    """Convert longitude and latitude to British National Grid (BNG) coordinates."""
     x, y = transformer.transform(lon, lat)
     return x, y
 
-merged_df[['x', 'y']] = merged_df.apply(
-    lambda row: latlon_to_xy(row['Longitude'], row['Latitude']),  
+
+merged_df[["x", "y"]] = merged_df.apply(
+    lambda row: latlon_to_xy(row["Longitude"], row["Latitude"]),
     axis=1,
-    result_type='expand'
+    result_type="expand",
 )
 
 # Save the new CSV
 merged_df.to_csv("Data_PP/Merged_Phosphate_Sites_XY.csv", index=False)
 
-print("✅ Added x and y coordinates (British National Grid) and saved as 'Merged_Phosphate_Sites_XY.csv'")
+print(
+    "✅ Added x and y coordinates (British National Grid) and saved as 'Merged_Phosphate_Sites_XY.csv'"
+)
 
 ############################################################
 # Step 3: Filter sites
@@ -84,37 +103,39 @@ merged_df = pd.read_csv("Data_PP/Merged_Phosphate_Sites_XY.csv")
 merged_df.columns = merged_df.columns.str.strip()
 
 # Convert 'Date' column to datetime format
-merged_df['Date'] = pd.to_datetime(merged_df['Date'], errors='coerce')
+merged_df["Date"] = pd.to_datetime(merged_df["Date"], errors="coerce")
 
 # Filter by date range (last two years: 2023-09-01 to 2025-09-01)
-START_DATE = pd.Timestamp('2023-09-01')
-END_DATE = pd.Timestamp('2025-09-01')
-filtered_df = merged_df[(merged_df['Date'] >= START_DATE) & (merged_df['Date'] <= END_DATE)]
+START_DATE = pd.Timestamp("2023-09-01")
+END_DATE = pd.Timestamp("2025-09-01")
+filtered_df = merged_df[
+    (merged_df["Date"] >= START_DATE) & (merged_df["Date"] <= END_DATE)
+]
 
 # Remove rows with missing or invalid Latitude/Longitude values ---
 # Convert to numeric to handle cases where they're stored as strings
-filtered_df['Latitude'] = pd.to_numeric(filtered_df['Latitude'], errors='coerce')
-filtered_df['Longitude'] = pd.to_numeric(filtered_df['Longitude'], errors='coerce')
+filtered_df["Latitude"] = pd.to_numeric(filtered_df["Latitude"], errors="coerce")
+filtered_df["Longitude"] = pd.to_numeric(filtered_df["Longitude"], errors="coerce")
 
 # Drop rows where Latitude or Longitude are missing (NaN)
-filtered_df = filtered_df.dropna(subset=['Latitude', 'Longitude'])
+filtered_df = filtered_df.dropna(subset=["Latitude", "Longitude"])
 
 # Remove rows where 'Hanna LR phos' is empty (NaN)
-filtered_df = filtered_df.dropna(subset=['Hanna LR phos'])
+filtered_df = filtered_df.dropna(subset=["Hanna LR phos"])
 
 SAMPLE_NUMBER_THRESHOLD = 50
 
 # Filter Site IDs with at least 50 samples
-site_counts = filtered_df['Site ID'].value_counts()
+site_counts = filtered_df["Site ID"].value_counts()
 sites_with_50_samples = site_counts[site_counts >= SAMPLE_NUMBER_THRESHOLD].index
-filtered_df = filtered_df[filtered_df['Site ID'].isin(sites_with_50_samples)]
+filtered_df = filtered_df[filtered_df["Site ID"].isin(sites_with_50_samples)]
 
 # Save the filtered dataframe to a new CSV
 output_path = "Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
 filtered_df.to_csv(output_path, index=False)
 
 # Print summary info
-unique_sites = filtered_df['Site ID'].nunique()
+unique_sites = filtered_df["Site ID"].nunique()
 
 print(f"✅ Filtered citsci data saved as:\n{output_path}")
 print(f"📊 Rows after filtering: {len(filtered_df)}")
@@ -125,13 +146,13 @@ input_csv = "Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv"
 df = pd.read_csv(input_csv)
 
 # Select only the desired columns
-new_df = df[['Site ID', 'x', 'y']]
+new_df = df[["Site ID", "x", "y"]]
 
 # Optional: ensure Sample ID is string
-new_df['Site ID'] = new_df['Site ID'].astype(str)
+new_df["Site ID"] = new_df["Site ID"].astype(str)
 
 # Drop duplicates based on Sample ID, keeping the first occurrence
-unique_df = new_df.drop_duplicates(subset='Site ID', keep='first')
+unique_df = new_df.drop_duplicates(subset="Site ID", keep="first")
 
 # Save to a new CSV
 output_csv = "Data_PP/Unique_SiteID_XY.csv"
@@ -145,7 +166,9 @@ print(f"New CSV saved as {output_csv} with {len(unique_df)} unique rows.")
 
 # Check if "Data_PP/Original/welsh_d8.nc" exists as a file and if not print a message saying it has to be downloaded manually
 if not os.path.exists("Data_PP/Original/welsh_d8.nc"):
-    print("File 'Data_PP/Original/welsh_d8.nc' not found. Please download it first (too big for repository!)")
+    print(
+        "File 'Data_PP/Original/welsh_d8.nc' not found. Please download it first (too big for repository!)"
+    )
 
 # Check the validity of the file
 check_d8("Data_PP/Original/welsh_d8.nc")
@@ -208,14 +231,14 @@ snap_to_drainage(
     drainage_area_threshold=1000000,  # 1 km^2
     plot=True,
     save=True,
-    #nudges={
-    #"FOUW173": np.array([1000, 0])
-    #}, 
-    #nudges={"CG001": np.array([1000, -1000])},
-    #nudges={
+    # nudges={
+    # "FOUW173": np.array([1000, 0])
+    # },
+    # nudges={"CG001": np.array([1000, -1000])},
+    # nudges={
     #    "p1": np.array([1000, -1000]),
     #    "p6": np.array([500, 500]),
-    #},
+    # },
 )
 
 # Once this is done, we can load in the snapped sample sites and build the sample network again.
@@ -226,7 +249,7 @@ sample_network, labels = get_sample_graph(
 )
 
 plt.imshow(labels)
-plt.axis('off')
+plt.axis("off")
 plt.show()
 
 # plt.figure(figsize=(15, 10))  # Visualise network
@@ -243,50 +266,46 @@ snapped = pd.read_csv("Unique_SiteID_XY_snapped.csv")
 
 # --- Step 3: Merge original + snapped data ---
 # Rename snapped columns to distinguish them
-snapped = snapped.rename(columns={
-    "x": "snapped_x",
-    "y": "snapped_y"
-})
+snapped = snapped.rename(columns={"x": "snapped_x", "y": "snapped_y"})
 
 # Merge on the unique site identifier (adjust column name as needed)
-merged = pd.merge(original, snapped[["Site ID", "snapped_x", "snapped_y"]], on="Site ID", how="left")
+merged = pd.merge(
+    original, snapped[["Site ID", "snapped_x", "snapped_y"]], on="Site ID", how="left"
+)
 
 # Save the merged dataset ---
 merged.to_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv", index=False)
-print("✅ Saved combined CSV with original and snapped coordinates as 'Unique_SiteID_XY_snapped_original.csv'")
+print(
+    "✅ Saved combined CSV with original and snapped coordinates as 'Unique_SiteID_XY_snapped_original.csv'"
+)
 
 # Add watercourse information to merged dataset with orginal and snapped x and y
 
-# Load both datasets 
+# Load both datasets
 snapped = pd.read_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv")
 phosphate = pd.read_csv("Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv")
 
 # --- Reduce phosphate data to unique site-level info ---
 # Keep only the relevant columns
-phosphate_unique = phosphate[[
-    "Site ID",
-    "Watercourse (if known)",
-    "Catchment (or \"tbc\")"
-]].drop_duplicates(subset="Site ID")
+phosphate_unique = phosphate[
+    ["Site ID", "Watercourse (if known)", 'Catchment (or "tbc")']
+].drop_duplicates(subset="Site ID")
 
 # --- Merge on Site ID (site-level join) ---
-merged = pd.merge(
-    snapped,
-    phosphate_unique,
-    on="Site ID",
-    how="left"
-)
+merged = pd.merge(snapped, phosphate_unique, on="Site ID", how="left")
 
 # --- Select desired columns and order ---
-final = merged[[
-    "Site ID",
-    "x",
-    "y",
-    "snapped_x",
-    "snapped_y",
-    "Watercourse (if known)",
-    "Catchment (or \"tbc\")"
-]]
+final = merged[
+    [
+        "Site ID",
+        "x",
+        "y",
+        "snapped_x",
+        "snapped_y",
+        "Watercourse (if known)",
+        'Catchment (or "tbc")',
+    ]
+]
 
 # --- Save result ---
 # Check if the directory "Data_PP/Output" exists, if not, create it

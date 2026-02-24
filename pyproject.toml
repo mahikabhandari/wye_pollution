@@ -1,6 +1,6 @@
 [tool.ruff]
 line-length = 88  # Match Black
-target-version = "py313"
+target-version = "py312"
 fix = true
 show-fixes = true
 
