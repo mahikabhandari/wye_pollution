@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Preprocess the input citizen science phosphate data from the Wye as well as a D8 flow direction raster so that they can be used for further analysis and inverse modeling.
 
@@ -9,6 +8,7 @@ Step 4: Check D8 raster is valid for use in inverse modelling software
 Step 5: Prepare data for inverse modelling by snapping sites to D8 flow paths.
 """
 
+#!/usr/bin/env python3
 import os
 
 import matplotlib.pyplot as plt
@@ -166,7 +166,7 @@ print(f"New CSV saved as {output_csv} with {len(unique_df)} unique rows.")
 
 # Check if "Data_PP/Original/welsh_d8.nc" exists as a file and if not print a message saying it has to be downloaded manually
 if not os.path.exists("Data_PP/Original/welsh_d8.nc"):
-    raise FileNotFoundError(
+    print(
         "File 'Data_PP/Original/welsh_d8.nc' not found. Please download it first (too big for repository!)"
     )
 
@@ -320,3 +320,25 @@ final.to_csv("Data_PP/Output/Snapped_Watercourse.csv", index=False)
 
 print("✅ Saved merged site-level dataset as 'Snapped_Watercourse.csv'")
 print(f"Rows in final file: {len(final)} (one per Site ID)")
+
+
+# Now we add in the dates
+
+# Load filtered observation-level dataset (contains Date)
+filtered = pd.read_csv("Data_PP/Filtered_Merged_Phosphate_Sites_XY.csv")
+# --- Load snapped site-level coordinates ---
+snapped = pd.read_csv("Data_PP/Unique_SiteID_XY_snapped_original.csv")
+
+# Keep only needed snapped columns
+snapped = snapped[["Site ID", "snapped_x", "snapped_y"]]
+
+# --- Merge snapped coordinates into full observation dataset ---
+final = pd.merge(filtered, snapped, on="Site ID", how="left")
+
+# --- Save final dataset ---
+output_path = "Data_PP/Output/Final_With_Dates_Snapped.csv"
+final.to_csv(output_path, index=False)
+
+print("✅ Final dataset saved with Date + snapped coordinates.")
+print(f"Rows: {len(final)}")
+print(f"Unique sites: {final['Site ID'].nunique()}")
