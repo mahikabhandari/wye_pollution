@@ -102,7 +102,7 @@ seasons_config = [
     # Season, months, years, season_name
     ("Spring", [3, 4, 5], [2024, 2025], "spring"),
     ("Summer", [6, 7, 8], [2024, 2025], "summer"),
-    ("Autumn", [9, 10, 11], [2024, 2025], "autumn"),
+    ("Autumn", [9, 10, 11], [2023, 2024], "autumn"),
     ("Winter", [12, 1, 2], ["2023_2024", "2024_2025"], "winter"),
 ]
 
