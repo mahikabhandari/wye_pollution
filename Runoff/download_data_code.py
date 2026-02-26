@@ -110,6 +110,7 @@ base_request = {
 
 # Create a dictionary mapping time period onto output dir
 output_dirs = {
+    "Autumn_2023": "Runoff/Autumn_2023/",
     "Dec_2023": "Runoff/Winter_2023_2024/",
     "JanFeb_2024": "Runoff/Winter_2023_2024/",
     "Spring_2024": "Runoff/Spring_2024/",
@@ -119,7 +120,6 @@ output_dirs = {
     "JanFeb_2025": "Runoff/Winter_2024_2025/",
     "Spring_2025": "Runoff/Spring_2025/",
     "Summer_2025": "Runoff/Summer_2025/",
-    "Autumn_2025": "Runoff/Autumn_2025/",
 }
 
 # For each output directory check if it exists and create it if not
