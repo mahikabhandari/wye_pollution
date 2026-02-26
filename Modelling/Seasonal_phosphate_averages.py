@@ -130,7 +130,7 @@ for season in target_seasons:
         ["Site_IDs", "snapped_x", "snapped_y", "phosphate_mean", "phosphate_std"]
     ]
 
-    filename = f"{season.replace('/','-')}.csv"
+    filename = f"{season.replace('/','_')}.csv"
     season_df.to_csv(os.path.join(output_dir, filename), index=False)
 
 print("Seasonal summary saved successfully.")
