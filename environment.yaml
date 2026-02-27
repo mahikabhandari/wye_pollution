@@ -8,3 +8,8 @@ dependencies:
   - rasterio
   - pyproj
   - numpy
+  - cdsapi
+  - xarray
+  - netcdf4
+  - rioxarray
+  - dask
